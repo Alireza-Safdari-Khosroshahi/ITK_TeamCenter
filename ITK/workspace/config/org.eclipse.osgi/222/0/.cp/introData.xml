@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extensions>
+   <page id="overview">
+      <group path="page-content/bottom-left" default="true">
+      </group>
+      <group path="page-content/bottom-right" default="true">
+      </group>
+      <group path="page-content/top-left">
+         <extension id="com.teamcenter.bmide" importance="low"/>
+      </group>
+      <group path="page-content/top-right">
+      </group>
+      <hidden>
+         <extension id="org.eclipse.ui.workbench" importance="low"/>
+         <extension id="DTP_overviewExtension" importance="low"/>
+      </hidden>
+   </page>
+   <!--page id="whatsnew">
+      <group path="page-content/bottom-left" default="true">
+      </group>
+      <group path="page-content/bottom-right" default="true">
+      </group>
+      <group path="page-content/top-left">
+         <extension id="com.teamcenter.bmide" importance="low"/>
+      </group>
+      <group path="page-content/top-right">
+      </group>
+      <hidden>
+         <extension id="org.eclipse.ui.workbench.news" importance="low"/>
+         <extension id="org.eclipse.ui.workbench.migration" importance="low"/>
+         <extension id="org.eclipse.ui.workbench" importance="low"/>
+      </hidden>
+   </page-->
+   <page id="tutorials">
+      <group path="page-content/bottom-left" default="true">
+      </group>
+      <group path="page-content/bottom-right" default="true">
+      </group>
+      <group path="page-content/top-left">
+         <extension id="com.teamcenter.bmide" importance="low"/>
+      </group>
+      <group path="page-content/top-right">
+      </group>
+      <hidden>
+         <extension id="org.eclipse.team" importance="low"/>
+         <extension id="DTP_tutorialsExtension" importance="low"/>
+      </hidden>
+   </page>
+</extensions>

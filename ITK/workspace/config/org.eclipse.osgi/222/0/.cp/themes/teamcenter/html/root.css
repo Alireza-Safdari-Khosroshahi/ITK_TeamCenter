@@ -1,0 +1,236 @@
+/*******************************************************************************
+                Copyright (c) 2003-2005 UGS Corporation
+                   Unpublished - All Rights Reserved
+ *******************************************************************************/
+
+/*
+ * Set up general font colours, sizes, etc.  Some of these will override
+ * settings from the shared CSS
+ */
+.intro-header H1 {
+    font-size : 18pt;
+    color : #3F3F3F;
+}
+#page-links a .link-label, #action-links a .link-label {
+    font-size : 13pt;
+    font-weight : 600;
+    /*
+    color : #E5E5E5;
+    */
+    color : #3F3F3F;
+}
+#page-links a p .text, #action-links a p .text {
+    font-size : 13pt;
+    font-weight : 500;
+    /*
+    color : #E5E5E5;
+    */
+    color : #3F3F3F;
+}
+
+/*
+ * Turn off shared backround image.
+ */
+
+.page {
+    background-image: none;
+}
+
+/*
+ * Set up the content for the root page.
+ */
+body {
+    background-repeat : no-repeat;
+	min-width : 770px;
+    /* since IE doesn't support min-width, use expression */
+    width:expression(document.body.clientWidth < 770? "770px": "auto" );
+    background-position : top left;
+    background-image : url(../graphics/root/background.png);
+}
+#root {
+    background-position : top left;
+    min-height : 450px;
+    height : 100%;
+    height : expression(document.body.clientHeight < 450? "450px": "100%" );
+}
+
+#branding {
+	display: none;
+	position: absolute;
+    /*
+    bottom : 20px;
+    */
+    top : 750px;
+    left : 20px;
+}
+
+/*
+ * We will not use the general-purpose group1 used in
+ * other pages for a curve image.
+ */
+
+#extra-group1 {
+    display : none;
+}
+/*
+ * Set up the navigation bar.  It should be centered in the middle
+ * of the page
+ */
+#links-background {
+    /*
+    width : 100%;
+    height : 177px;
+    */
+    width : 25%;
+    height : 50%;
+    margin-top : 18%;
+    margin-bottom : auto;
+    text-align : center;
+}
+
+/* specify a width for Moz so we can center.
+ * **Important** If additional links are added, we will have to increase this width
+ * to accomodate them, otherwise they will wrap to a new line
+ */
+#links-background > #page-links {
+    width: 33em;
+    margin: 0 auto;
+}
+
+#page-links {
+    position : absolute;
+    right: 0px;
+    top : 0px;
+}
+#page-links a#overview {
+    position : absolute;
+    top : 10px;
+    right : 40px;
+    text-align : right;
+}
+
+#page-links a#tutorials {
+    position : absolute;
+    top : 110px;
+    right : 40px;
+    text-align : right;
+}
+
+/* float left for Moz so the items all appear inline */
+#page-links > a {
+    float : right;
+    position : relative;
+}
+
+#page-links a img {
+    height : 82px;
+    width : 82px;
+    vertical-align : middle;
+}
+
+/* remove the hover image from the flow of the document,
+   so it doesn't take up space and change the position
+   of the link label and descriptions */
+#page-links a .background-image {
+    position : absolute;
+}
+/* properly align the link label and text based on class (left vs. right) */
+#page-links a:hover {
+    /* This is needed for IE to force the hover pseudo selectors below to work.*/
+    padding : 0 em;
+}
+
+/* hide description and remove it from static HTML flow, until user hovers over link */
+#page-links a.left:link .text,
+#page-links a.left:visited .text {
+    display: none;
+}
+
+/* Set up right links orientation now. */
+#page-links a.right:link .link-label,
+#page-links a.right:visited .link-label {
+    display: none;
+}
+#page-links a.right:hover .link-label,
+#page-links a.right:focus .link-label{
+    text-align: right;
+    position: absolute;
+    /*
+    top : 120 %;
+    right : 0;
+    */
+    top : 0px;
+    right : 0px;
+}
+/* hide description and remove it from static HTML flow, until user hovers over link */
+#page-links a.right:link .text,
+#page-links a.right:visited .text {
+    display: none;
+}
+#page-links a.right:hover .text,
+#page-links a.right:focus .text,
+#page-links a.right:active .text {
+    text-align: right;
+    display: block;
+    position: absolute;
+    /*
+    right : 0;
+    top: 145%;
+    */
+    right : 100;
+    top: 145%;
+}
+/* properties for each of the page-links  */
+#page-links a#overview img { background-image : url(../graphics/icons/etool/overview82.gif); }
+/*#page-links a:hover#overview img { background-image : url(../graphics/icons/ctool/overview82.gif); }*/
+
+#page-links a#tutorials img { background-image : url(../graphics/icons/etool/tutorials82.gif); }
+/*#page-links a:hover#tutorials img { background-image : url(../graphics/icons/ctool/tutorials82.gif); }*/
+
+/*
+ * Set up the action links
+ */
+#action-links {
+    position : absolute;
+    right : 0px;
+    top : 220px;
+}
+#action-links a#workbench {
+    position : absolute;
+    top : 0px;
+    right : 40px;
+    text-align : right;
+}
+#action-links a .background-image,
+#action-links a #workbench_img {
+    height : 53px;
+    width : 53px;
+    text-align : center;
+    vertical-align : top;
+}
+/* special case for mozilla */
+#action-links a > .background-image,
+#action-links a > #workbench_img {
+    vertical-align : middle;
+}
+/* remove the hover image from the flow of the document,
+   so it doesn't take up space and change the position
+   of the main image */
+#action-links a .background-image {
+    position : absolute;
+}
+
+#action-links a#workbench .background-image {
+    background-image : url(../graphics/icons/etool/wb48.gif);
+}
+
+/* hide the link and description until users hover over the link */
+#action-links a p .text {
+    display : none;
+}
+
+#action-links a:hover,
+#action-links a:focus,
+#action-links a:active {
+    border : 0px;
+}

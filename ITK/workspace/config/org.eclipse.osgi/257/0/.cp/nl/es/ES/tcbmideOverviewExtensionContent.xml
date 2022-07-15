@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+bcprt
+This software and related documentation are proprietary to UGS Corp.
+COPYRIGHT 2005 UGS CORP.  ALL RIGHTS RESERVED
+ecprt
+-->
+<introContent>
+    
+   <!-- Adds "Teamcenter Business Modeler IDE" to the Overview page. -->
+   <extensionContent id="com.teamcenter.bmide" name="IDE del modelador de negocio de Teamcenter" alt-style="css/swt.properties" style="css/tcbmide.css" path="overview/@">
+     
+   <group label="Entorno del desarrollo integrado (IDE) del modelador de negocio de Teamcenter" id="tcbmideoverview" style-id="tcbmide-group">
+		   
+    <link label="Descripción general de procesos" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/bmide_process_overview.html" id="tcbmide">
+		<text>Obtener una descripción general del proceso de trabajo al utilizar el IDE del modelador de negocio</text>
+    	</link>
+      
+    <link label="Propósito" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/UsingTheIDE.html" id="tcbmide">
+		<text>Familiarícese con los ítems del modelo de datos que puede crear usando el IDE del modelador de negocio de Teamcenter</text>
+    	</link>
+
+	<link label="Interfaz del usuario" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/BMIDEUserInterface.html" id="tcbmide">
+		<text>Obtener una introducción a la interfaz del usuario</text>
+        </link>
+
+	<link label="Ajuste inicial" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/ConfiguringBMIDE.html" id="tcbmide">
+		<text>Descubrir cómo configurar el IDE del modelador de negocio</text>
+        </link>
+
+	<link label="Tareas básicas" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/BasicTasksUsingTheBMIDE.html" id="tcbmide">
+		<text>Remítase a las tareas básicas que puede realizar con el IDE del modelador de negocio</text>
+        </link>
+
+      </group>
+
+   </extensionContent>
+   
+</introContent>

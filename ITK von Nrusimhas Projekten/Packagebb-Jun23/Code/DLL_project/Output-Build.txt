@@ -1,0 +1,17 @@
+﻿Build started...
+1>------ Build started: Project: libCT4Customlib, Configuration: Release x64 ------
+1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+1>CT4_ClassificationforModul.cpp
+1>C:\Users\PA\Desktop\Nru_class\Project1\CT4_ClassificationforModul.cpp(137,14): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>C:\Users\PA\Desktop\Nru_class\Project1\CT4_ClassificationforModul.cpp(141,9): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>C:\Users\PA\Desktop\Nru_class\Project1\CT4_ClassificationforModul.cpp(176,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>C:\Users\PA\Desktop\Nru_class\Project1\CT4_ClassificationforModul.cpp(247,15): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>C:\Users\PA\Desktop\Nru_class\Project1\CT4_ClassificationforModul.cpp(256,11): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>   Creating library C:\Users\PA\Desktop\Nru_class\Project1\x64\Release\libCT4Customlib.lib and object C:\Users\PA\Desktop\Nru_class\Project1\x64\Release\libCT4Customlib.exp
+1>Generating code
+1>Previous IPDB not found, fall back to full compilation.
+1>All 155 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+1>Finished generating code
+1>Project1.vcxproj -> C:\Users\PA\Desktop\Nru_class\Project1\x64\Release\libCT4Customlib.dll
+1>Done building project "Project1.vcxproj".
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

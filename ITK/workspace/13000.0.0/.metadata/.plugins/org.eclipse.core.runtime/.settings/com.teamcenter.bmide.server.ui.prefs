@@ -1,0 +1,6 @@
+BusinessModelerIDEClientID=DEV1000_D7172B5EC2AB05461113C2DF4DBC9F71
+ShowHelpView=false
+TcServerConfigFileProfiles=TcWeb1,
+TcServerProfiles=TcWeb1,
+TcWeb1=TcWeb1,http,localhost,80,tc,,,,
+eclipse.preferences.version=1

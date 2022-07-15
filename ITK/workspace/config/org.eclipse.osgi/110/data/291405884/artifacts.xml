@@ -1,0 +1,2110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='C:\Siemens\TC13_01\bmide\client\.eclipseextension' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1638884695554'/>
+    <property name='org.eclipse.update.site.policy' value='USER-EXCLUDE'/>
+    <property name='org.eclipse.update.site.list' value=''/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='213'>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.audit.core' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='219492'/>
+        <property name='download.size' value='219492'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.audit.core_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.audit.core_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tools.templates.core' version='1.1.0.201812111206'>
+      <properties size='2'>
+        <property name='artifact.size' value='11645'/>
+        <property name='download.size' value='11645'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.tools.templates.core_1.1.0.201812111206.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.tools.templates.core_1.1.0.201812111206.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.lisframework.core' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='237104'/>
+        <property name='download.size' value='237104'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.lisframework.core_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.lisframework.core_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.junit' version='4.12.0.v201504281640'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.junit_4.12.0.v201504281640/'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.junit_4.12.0.v201504281640'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.tcplmxml' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='49363'/>
+        <property name='download.size' value='49363'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.tcplmxml_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.tcplmxml_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.genericeditor.diff.extension.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5869'/>
+        <property name='download.size' value='5869'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.team.genericeditor.diff.extension.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.team.genericeditor.diff.extension.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.mergesample.customer' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='171935'/>
+        <property name='download.size' value='171935'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.mergesample.customer_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.mergesample.customer_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.di.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5456'/>
+        <property name='download.size' value='5456'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.e4.ui.di.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.e4.ui.di.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.simpleconfigurator.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5746'/>
+        <property name='download.size' value='5746'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.equinox.simpleconfigurator.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.equinox.simpleconfigurator.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.ui.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1834733'/>
+        <property name='download.size' value='1834733'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.jdt.ui.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.jdt.ui.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.ui' version='6.4.0.201811241855'>
+      <properties size='2'>
+        <property name='artifact.size' value='6379002'/>
+        <property name='download.size' value='6379002'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.cdt.ui_6.4.0.201811241855.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.cdt.ui_6.4.0.201811241855.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.draw2d.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='12208'/>
+        <property name='download.size' value='12208'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.draw2d.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.draw2d.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.doc.isv.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5471'/>
+        <property name='download.size' value='5471'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.jdt.doc.isv.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.jdt.doc.isv.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.migration.core' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='269968'/>
+        <property name='download.size' value='269968'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.migration.core_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.migration.core_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.forms.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='14238'/>
+        <property name='download.size' value='14238'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.forms.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.forms.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.di.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5433'/>
+        <property name='download.size' value='5433'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.e4.core.di.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.e4.core.di.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf' version='2.8.0.v20180706-1146'>
+      <properties size='2'>
+        <property name='artifact.size' value='13226'/>
+        <property name='download.size' value='13226'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.emf_2.8.0.v20180706-1146.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.emf_2.8.0.v20180706-1146.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.ui.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='158784'/>
+        <property name='download.size' value='158784'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.team.ui.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.team.ui.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.databinding.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='20642'/>
+        <property name='download.size' value='20642'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.core.databinding.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.core.databinding.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.runtime.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='33439'/>
+        <property name='download.size' value='33439'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.core.runtime.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.core.runtime.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jface.databinding.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5740'/>
+        <property name='download.size' value='5740'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.jface.databinding.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.jface.databinding.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tcmemjavabinding' version='8000.3.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='69769'/>
+        <property name='download.size' value='69769'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/tcmemjavabinding.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\tcmemjavabinding.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.gef.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='58363'/>
+        <property name='download.size' value='58363'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.gef.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.gef.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.activeworkspacebom' version='13000.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='12025'/>
+        <property name='download.size' value='12025'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.activeworkspacebom_13000.0.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.activeworkspacebom_13000.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.frameworkadmin.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5612'/>
+        <property name='download.size' value='5612'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.equinox.frameworkadmin.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.equinox.frameworkadmin.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.xml' version='1.3.4.v201005080400'>
+      <properties size='2'>
+        <property name='artifact.size' value='254976'/>
+        <property name='download.size' value='254976'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/javax.xml_1.3.4.v201005080400.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\javax.xml_1.3.4.v201005080400.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='TcSoaClient' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='445822'/>
+        <property name='download.size' value='445822'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/TcSoaClient_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\TcSoaClient_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.xmi.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='11322'/>
+        <property name='download.size' value='11322'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.emf.ecore.xmi.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.emf.ecore.xmi.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.di.annotations.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='3719'/>
+        <property name='download.size' value='3719'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.e4.core.di.annotations.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.e4.core.di.annotations.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='TcSoaCoreStrong' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='549015'/>
+        <property name='download.size' value='549015'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/TcSoaCoreStrong_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\TcSoaCoreStrong_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.di.extensions.supplier.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='3833'/>
+        <property name='download.size' value='3833'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.e4.core.di.extensions.supplier.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.e4.core.di.extensions.supplier.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.core' version='7.4.1.201812021701'>
+      <properties size='2'>
+        <property name='artifact.size' value='464806'/>
+        <property name='download.size' value='464806'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.cdt.make.core_7.4.1.201812021701.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.cdt.make.core_7.4.1.201812021701.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.search.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='87968'/>
+        <property name='download.size' value='87968'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.search.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.search.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.lisframework.helpguide' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='181521'/>
+        <property name='download.size' value='181521'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.lisframework.helpguide_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.lisframework.helpguide_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.lisframework.services.ui' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='296060'/>
+        <property name='download.size' value='296060'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.lisframework.services.ui_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.lisframework.services.ui_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.variables.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='15674'/>
+        <property name='download.size' value='15674'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.core.variables.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.core.variables.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.zest.core' version='1.5.300.201606061308'>
+      <properties size='2'>
+        <property name='artifact.size' value='150492'/>
+        <property name='download.size' value='150492'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.zest.core_1.5.300.201606061308.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.zest.core_1.5.300.201606061308.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.docmgt.ui' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='374834'/>
+        <property name='download.size' value='374834'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.docmgt.ui_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.docmgt.ui_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jsch.core.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='14994'/>
+        <property name='download.size' value='14994'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.jsch.core.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.jsch.core.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='75543'/>
+        <property name='download.size' value='75543'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.osgi.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.osgi.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.intro.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='52322'/>
+        <property name='download.size' value='52322'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.intro.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.intro.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.draw2d' version='3.10.100.201606061308'>
+      <properties size='2'>
+        <property name='artifact.size' value='616652'/>
+        <property name='download.size' value='616652'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.draw2d_3.10.100.201606061308.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.draw2d_3.10.100.201606061308.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.aws2.core.constantvalidators' version='13000.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='16499'/>
+        <property name='download.size' value='16499'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.aws2.core.constantvalidators_13000.0.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.aws2.core.constantvalidators_13000.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.compare.ui' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='95168'/>
+        <property name='download.size' value='95168'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.compare.ui_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.compare.ui_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ant.ui.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='250312'/>
+        <property name='download.size' value='250312'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ant.ui.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ant.ui.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.foundation.core' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5120436'/>
+        <property name='download.size' value='5120436'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.foundation.core_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.foundation.core_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.graphmodel' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='37381'/>
+        <property name='download.size' value='37381'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.graphmodel_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.graphmodel_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.umlmodel' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='60944'/>
+        <property name='download.size' value='60944'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.umlmodel_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.umlmodel_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.console.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='31541'/>
+        <property name='download.size' value='31541'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.console.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.console.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.common.ui' version='2.15.0.v20181104-0733'>
+      <properties size='2'>
+        <property name='artifact.size' value='164886'/>
+        <property name='download.size' value='164886'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.emf.common.ui_2.15.0.v20181104-0733.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.emf.common.ui_2.15.0.v20181104-0733.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.net.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='23079'/>
+        <property name='download.size' value='23079'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.net.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.net.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.teamcenter.bmide.product' version='13000.1.0'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/features/com.teamcenter.bmide.product_13000.1.0/'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\features\com.teamcenter.bmide.product_13000.1.0'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi.services.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6182'/>
+        <property name='download.size' value='6182'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.osgi.services.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.osgi.services.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.gef' version='3.11.0.201606061308'>
+      <properties size='2'>
+        <property name='artifact.size' value='999341'/>
+        <property name='download.size' value='999341'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.gef_3.11.0.201606061308.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.gef_3.11.0.201606061308.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.activeworkspacebom.indexer.base' version='13000.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='69335'/>
+        <property name='download.size' value='69335'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.activeworkspacebom.indexer.base_13000.0.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.activeworkspacebom.indexer.base_13000.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.server.ui' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5377872'/>
+        <property name='download.size' value='5377872'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.server.ui_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.server.ui_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.install' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='201386'/>
+        <property name='download.size' value='201386'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.install_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.install_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.edit.ui' version='2.16.0.v20181104-0733'>
+      <properties size='2'>
+        <property name='artifact.size' value='349944'/>
+        <property name='download.size' value='349944'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.emf.edit.ui_2.16.0.v20181104-0733.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.emf.edit.ui_2.16.0.v20181104-0733.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.core.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='38655'/>
+        <property name='download.size' value='38655'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.team.core.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.team.core.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='httpclient' version='4.5.10'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/httpclient_13000.1.0/'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\httpclient_13000.1.0'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.net.win32.x86_64.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5617'/>
+        <property name='download.size' value='5617'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.core.net.win32.x86_64.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.core.net.win32.x86_64.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.css.core.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6000'/>
+        <property name='download.size' value='6000'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.e4.ui.css.core.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.e4.ui.css.core.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.css.swt.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5472'/>
+        <property name='download.size' value='5472'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.e4.ui.css.swt.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.e4.ui.css.swt.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.debug.core.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='74582'/>
+        <property name='download.size' value='74582'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.debug.core.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.debug.core.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.xml.soap' version='1.2.0.v201005080501'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/javax.xml.soap_1.2.0.v201005080501/'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\javax.xml.soap_1.2.0.v201005080501'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.hamcrest.core' version='1.3.0.v20180420-1519'>
+      <properties size='2'>
+        <property name='artifact.size' value='66997'/>
+        <property name='download.size' value='66997'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.filesystem.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='21466'/>
+        <property name='download.size' value='21466'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.core.filesystem.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.core.filesystem.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ltk.ui.refactoring.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='84160'/>
+        <property name='download.size' value='84160'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ltk.ui.refactoring.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ltk.ui.refactoring.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.net.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='13972'/>
+        <property name='download.size' value='13972'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.core.net.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.core.net.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tools.templates.ui' version='1.1.1.201812111206'>
+      <properties size='2'>
+        <property name='artifact.size' value='36344'/>
+        <property name='download.size' value='36344'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.tools.templates.ui_1.1.1.201812111206.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.tools.templates.ui_1.1.1.201812111206.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.launch' version='9.2.1.201811291831'>
+      <properties size='2'>
+        <property name='artifact.size' value='246823'/>
+        <property name='download.size' value='246823'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.cdt.launch_9.2.1.201811291831.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.cdt.launch_9.2.1.201811291831.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.migration.ui' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='10841'/>
+        <property name='download.size' value='10841'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.migration.ui_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.migration.ui_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.branding' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1261234'/>
+        <property name='download.size' value='1261234'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.branding_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.branding_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.logging.log4j' version='2.13.0'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.apache.logging.log4j/'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.apache.logging.log4j'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.activeworkspacebom.indexer' version='13000.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='17280'/>
+        <property name='download.size' value='17280'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.activeworkspacebom.indexer_13000.0.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.activeworkspacebom.indexer_13000.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.frameworkadmin.equinox.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='21798'/>
+        <property name='download.size' value='21798'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.equinox.frameworkadmin.equinox.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.equinox.frameworkadmin.equinox.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.core.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='502553'/>
+        <property name='download.size' value='502553'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.jdt.core.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.jdt.core.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi.util.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5888'/>
+        <property name='download.size' value='5888'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.osgi.util.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.osgi.util.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.server.uml.ui' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='173539'/>
+        <property name='download.size' value='173539'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.server.uml.ui_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.server.uml.ui_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.databinding.observable.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5822'/>
+        <property name='download.size' value='5822'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.core.databinding.observable.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.core.databinding.observable.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='41967'/>
+        <property name='download.size' value='41967'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.jdt.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.jdt.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.ide.basemodel.edit' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='21236'/>
+        <property name='download.size' value='21236'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.ide.basemodel.edit_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.ide.basemodel.edit_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.launching.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='81451'/>
+        <property name='download.size' value='81451'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.jdt.launching.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.jdt.launching.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.widgets.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5436'/>
+        <property name='download.size' value='5436'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.e4.ui.widgets.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.e4.ui.widgets.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.eda.ui' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='126493'/>
+        <property name='download.size' value='126493'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.eda.ui_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.eda.ui_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.compare.core' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='57304'/>
+        <property name='download.size' value='57304'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.compare.core_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.compare.core_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tools.templates.freemarker' version='1.0.0.201812111206'>
+      <properties size='2'>
+        <property name='artifact.size' value='20949'/>
+        <property name='download.size' value='20949'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.tools.templates.freemarker_1.0.0.201812111206.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.tools.templates.freemarker_1.0.0.201812111206.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.win32.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='16367'/>
+        <property name='download.size' value='16367'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.win32.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.win32.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.debug.ui.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='367960'/>
+        <property name='download.size' value='367960'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.jdt.debug.ui.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.jdt.debug.ui.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.server.soa' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='39221'/>
+        <property name='download.size' value='39221'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.server.soa_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.server.soa_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.css.swt.theme.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5840'/>
+        <property name='download.size' value='5840'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.e4.ui.css.swt.theme.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.e4.ui.css.swt.theme.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.ide.base' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='28577'/>
+        <property name='download.size' value='28577'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.ide.base_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.ide.base_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.help.base.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='41283'/>
+        <property name='download.size' value='41283'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.help.base.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.help.base.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ltk.core.refactoring.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='49192'/>
+        <property name='download.size' value='49192'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ltk.core.refactoring.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ltk.core.refactoring.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.codegen.ui' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='372261'/>
+        <property name='download.size' value='372261'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.codegen.ui_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.codegen.ui_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.filebuffers.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='34451'/>
+        <property name='download.size' value='34451'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.core.filebuffers.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.core.filebuffers.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.navigator.resources.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='30275'/>
+        <property name='download.size' value='30275'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.navigator.resources.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.navigator.resources.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.soa.services.ui' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='197068'/>
+        <property name='download.size' value='197068'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.soa.services.ui_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.soa.services.ui_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.welcome' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='427785'/>
+        <property name='download.size' value='427785'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.welcome_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.welcome_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='68698'/>
+        <property name='download.size' value='68698'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.freemarker' version='2.3.22.v20160210-1233'>
+      <properties size='2'>
+        <property name='artifact.size' value='1385723'/>
+        <property name='download.size' value='1385723'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.freemarker_2.3.22.v20160210-1233.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.freemarker_2.3.22.v20160210-1233.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.xerces' version='2.9.0.v201101211617'>
+      <properties size='2'>
+        <property name='artifact.size' value='1304145'/>
+        <property name='download.size' value='1304145'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.apache.xerces_2.9.0.v201101211617.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.apache.xerces_2.9.0.v201101211617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.cheatsheets.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='62969'/>
+        <property name='download.size' value='62969'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.cheatsheets.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.cheatsheets.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.emf.xpath.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6222'/>
+        <property name='download.size' value='6222'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.e4.emf.xpath.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.e4.emf.xpath.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='TcSoaQueryStrong' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='60731'/>
+        <property name='download.size' value='60731'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/TcSoaQueryStrong_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\TcSoaQueryStrong_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.launchbar.core' version='2.2.2.201811071421'>
+      <properties size='2'>
+        <property name='artifact.size' value='78817'/>
+        <property name='download.size' value='78817'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.launchbar.core_2.2.2.201811071421.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.launchbar.core_2.2.2.201811071421.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.resources.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='109658'/>
+        <property name='download.size' value='109658'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.core.resources.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.core.resources.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.launcher.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5702'/>
+        <property name='download.size' value='5702'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.equinox.launcher.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.equinox.launcher.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='TcSoaDocumentManagementStrong' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='69300'/>
+        <property name='download.size' value='69300'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/TcSoaDocumentManagementStrong_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\TcSoaDocumentManagementStrong_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.apps.logmanager.logwriter' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='76175'/>
+        <property name='download.size' value='76175'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.apps.logmanager.logwriter_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.apps.logmanager.logwriter_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.workbench.texteditor.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='190394'/>
+        <property name='download.size' value='190394'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.workbench.texteditor.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.workbench.texteditor.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='commons_lang' version='2.1.0'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/commons_lang/'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\commons_lang'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.core' version='8.3.1.201811241055'>
+      <properties size='2'>
+        <property name='artifact.size' value='329255'/>
+        <property name='download.size' value='329255'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.cdt.debug.core_8.3.1.201811241055.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.cdt.debug.core_8.3.1.201811241055.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.junit4.runtime.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5704'/>
+        <property name='download.size' value='5704'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.jdt.junit4.runtime.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.jdt.junit4.runtime.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.utility' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='59862'/>
+        <property name='download.size' value='59862'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.utility_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.utility_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.model.workbench.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5948'/>
+        <property name='download.size' value='5948'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.e4.ui.model.workbench.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.e4.ui.model.workbench.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ant.core.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='42200'/>
+        <property name='download.size' value='42200'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ant.core.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ant.core.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.server.typecollision' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='177643'/>
+        <property name='download.size' value='177643'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.server.typecollision_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.server.typecollision_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.dialogs.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='15377'/>
+        <property name='download.size' value='15377'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.e4.ui.dialogs.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.e4.ui.dialogs.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.di.extensions.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5574'/>
+        <property name='download.size' value='5574'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.e4.core.di.extensions.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.e4.core.di.extensions.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.expressions.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='21321'/>
+        <property name='download.size' value='21321'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.core.expressions.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.core.expressions.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.externaltools.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='82612'/>
+        <property name='download.size' value='82612'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.externaltools.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.externaltools.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.rac.external' version='13000.1.0'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.rac.external_13000.1.0/'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.rac.external_13000.1.0'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.common.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='24257'/>
+        <property name='download.size' value='24257'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.emf.common.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.emf.common.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi.compatibility.state.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='19543'/>
+        <property name='download.size' value='19543'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.osgi.compatibility.state.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.osgi.compatibility.state.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.rbf.ui' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='196256'/>
+        <property name='download.size' value='196256'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.rbf.ui_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.rbf.ui_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.search' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='28255'/>
+        <property name='download.size' value='28255'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.search_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.search_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.SecurityServices' version='13000.1.0'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.SecurityServices_13000.1.0/'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.SecurityServices_13000.1.0'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.swt.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='22897'/>
+        <property name='download.size' value='22897'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.swt.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.swt.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.browser.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='29771'/>
+        <property name='download.size' value='29771'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.browser.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.browser.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.xml.serializer' version='2.7.1.v201005080400'>
+      <properties size='2'>
+        <property name='artifact.size' value='293864'/>
+        <property name='download.size' value='293864'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.apache.xml.serializer_2.7.1.v201005080400.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.apache.xml.serializer_2.7.1.v201005080400.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.edit' version='2.14.0.v20180823-0456'>
+      <properties size='2'>
+        <property name='artifact.size' value='302198'/>
+        <property name='download.size' value='302198'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.emf.edit_2.14.0.v20180823-0456.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.emf.edit_2.14.0.v20180823-0456.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.ide.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='538202'/>
+        <property name='download.size' value='538202'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.ide.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.ide.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui' version='8.3.1.201811241055'>
+      <properties size='2'>
+        <property name='artifact.size' value='1107189'/>
+        <property name='download.size' value='1107189'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.cdt.debug.ui_8.3.1.201811241055.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.cdt.debug.ui_8.3.1.201811241055.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.siemens.lookandfeel' version='13000.1.0'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.siemens.lookandfeel_13000.1.0/'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.siemens.lookandfeel_13000.1.0'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='TcSoaStrongModel' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1448146'/>
+        <property name='download.size' value='1448146'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/TcSoaStrongModel_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\TcSoaStrongModel_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.xml.rpc' version='1.1.0.v201209140446'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/javax.xml.rpc_1.1.0.v201209140446/'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\javax.xml.rpc_1.1.0.v201209140446'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.resources.win32.x86_64.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6407'/>
+        <property name='download.size' value='6407'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.core.resources.win32.x86_64.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.core.resources.win32.x86_64.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.ui' version='7.3.1.201811291831'>
+      <properties size='2'>
+        <property name='artifact.size' value='530095'/>
+        <property name='download.size' value='530095'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.cdt.make.ui_7.3.1.201811291831.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.cdt.make.ui_7.3.1.201811291831.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.options.core' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='87348'/>
+        <property name='download.size' value='87348'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.options.core_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.options.core_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.debug.ui.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='439346'/>
+        <property name='download.size' value='439346'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.debug.ui.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.debug.ui.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.audit.ui' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='263887'/>
+        <property name='download.size' value='263887'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.audit.ui_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.audit.ui_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.editors.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='157411'/>
+        <property name='download.size' value='157411'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.editors.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.editors.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.apt.core.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='27891'/>
+        <property name='download.size' value='27891'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.jdt.apt.core.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.jdt.apt.core.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.compare.win32.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='26378'/>
+        <property name='download.size' value='26378'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.compare.win32.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.compare.win32.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.change.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='10636'/>
+        <property name='download.size' value='10636'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.emf.ecore.change.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.emf.ecore.change.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.docmgt.core' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='305614'/>
+        <property name='download.size' value='305614'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.docmgt.core_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.docmgt.core_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.helpguide' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='25249772'/>
+        <property name='download.size' value='25249772'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.helpguide_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.helpguide_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.help.ui.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='66501'/>
+        <property name='download.size' value='66501'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.help.ui.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.help.ui.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.core.manipulation.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='392824'/>
+        <property name='download.size' value='392824'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.jdt.core.manipulation.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.jdt.core.manipulation.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.navigator.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='37525'/>
+        <property name='download.size' value='37525'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.navigator.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.navigator.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.wsdl' version='1.6.2.v201012040545'>
+      <properties size='2'>
+        <property name='artifact.size' value='168875'/>
+        <property name='download.size' value='168875'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/javax.wsdl_1.6.2.v201012040545.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\javax.wsdl_1.6.2.v201012040545.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.services.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5413'/>
+        <property name='download.size' value='5413'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.e4.core.services.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.e4.core.services.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.server.uml.viewmodel' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='33439'/>
+        <property name='download.size' value='33439'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.server.uml.viewmodel_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.server.uml.viewmodel_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.ide.basemodel' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='28152'/>
+        <property name='download.size' value='28152'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.ide.basemodel_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.ide.basemodel_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.apt.ui.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='35900'/>
+        <property name='download.size' value='35900'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.jdt.apt.ui.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.jdt.apt.ui.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='TcSoaImportExportStrong' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='41120'/>
+        <property name='download.size' value='41120'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/TcSoaImportExportStrong_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\TcSoaImportExportStrong_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.eda.core' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='115439'/>
+        <property name='download.size' value='115439'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.eda.core_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.eda.core_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.launchbar.ui' version='2.2.2.201811071421'>
+      <properties size='2'>
+        <property name='artifact.size' value='82102'/>
+        <property name='download.size' value='82102'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.launchbar.ui_2.2.2.201811071421.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.launchbar.ui_2.2.2.201811071421.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jface.text.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='150371'/>
+        <property name='download.size' value='150371'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.jface.text.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.jface.text.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.base.ui' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1996983'/>
+        <property name='download.size' value='1996983'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.base.ui_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.base.ui_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.jobs.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='15347'/>
+        <property name='download.size' value='15347'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.core.jobs.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.core.jobs.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.genericeditor.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='17823'/>
+        <property name='download.size' value='17823'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.genericeditor.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.genericeditor.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.xml.resolver' version='1.2.0.v201005080400'>
+      <properties size='2'>
+        <property name='artifact.size' value='97025'/>
+        <property name='download.size' value='97025'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.apache.xml.resolver_1.2.0.v201005080400.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.apache.xml.resolver_1.2.0.v201005080400.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='antlr' version='3.0.1'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/antlr/'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\antlr'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.poi.39' version='3.9.0'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.apache.poi.39/'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.apache.poi.39'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='82458'/>
+        <property name='download.size' value='82458'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.emf.ecore.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.emf.ecore.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.contenttype.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='17043'/>
+        <property name='download.size' value='17043'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.core.contenttype.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.core.contenttype.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.edit' version='2.11.0.v20180823-0905'>
+      <properties size='2'>
+        <property name='artifact.size' value='188134'/>
+        <property name='download.size' value='188134'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.emf.ecore.edit_2.11.0.v20180823-0905.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.emf.ecore.edit_2.11.0.v20180823-0905.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tcgatewaystubs' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='22780'/>
+        <property name='download.size' value='22780'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/tcgatewaystubs.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\tcgatewaystubs.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.server.antlr' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='105772'/>
+        <property name='download.size' value='105772'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.server.antlr_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.server.antlr_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.basemodel' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='370688'/>
+        <property name='download.size' value='370688'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.basemodel_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.basemodel_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.help.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='7377'/>
+        <property name='download.size' value='7377'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.help.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.help.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jsch.ui.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='36706'/>
+        <property name='download.size' value='36706'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.jsch.ui.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.jsch.ui.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.codegen' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='615286'/>
+        <property name='download.size' value='615286'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.codegen_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.codegen_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.rulesengine' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='29851'/>
+        <property name='download.size' value='29851'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.rulesengine_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.rulesengine_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jface.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='72766'/>
+        <property name='download.size' value='72766'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.jface.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.jface.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.compare.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='182568'/>
+        <property name='download.size' value='182568'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.compare.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.compare.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.codegen.build' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='15922'/>
+        <property name='download.size' value='15922'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.codegen.build_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.codegen.build_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.zest.layouts' version='1.1.300.201606061308'>
+      <properties size='2'>
+        <property name='artifact.size' value='132872'/>
+        <property name='download.size' value='132872'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.zest.layouts_1.1.300.201606061308.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.zest.layouts_1.1.300.201606061308.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.databinding.beans.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5723'/>
+        <property name='download.size' value='5723'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.core.databinding.beans.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.core.databinding.beans.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.search.ui' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='342009'/>
+        <property name='download.size' value='342009'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.search.ui_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.search.ui_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.datamodel' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='111575609'/>
+        <property name='download.size' value='111575609'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.datamodel_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.datamodel_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='TcSoaBusinessModelerStrong' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='49041'/>
+        <property name='download.size' value='49041'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/TcSoaBusinessModelerStrong_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\TcSoaBusinessModelerStrong_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='SingleEmbeddedViewer' version='13.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1756161'/>
+        <property name='download.size' value='1756161'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/SingleEmbeddedViewer.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\SingleEmbeddedViewer.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.xalan' version='2.7.1.v201005080400'>
+      <properties size='2'>
+        <property name='artifact.size' value='2766137'/>
+        <property name='download.size' value='2766137'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.apache.xalan_2.7.1.v201005080400.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.apache.xalan_2.7.1.v201005080400.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.ide.ui' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='55840'/>
+        <property name='download.size' value='55840'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.ide.ui_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.ide.ui_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.base.core' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='296627'/>
+        <property name='download.size' value='296627'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.base.core_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.base.core_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.databinding.property.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5576'/>
+        <property name='download.size' value='5576'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.core.databinding.property.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.core.databinding.property.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.text.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='52732'/>
+        <property name='download.size' value='52732'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.text.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.text.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.commands.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5461'/>
+        <property name='download.size' value='5461'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.core.commands.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.core.commands.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.services.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5448'/>
+        <property name='download.size' value='5448'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.e4.ui.services.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.e4.ui.services.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.compare.samples.ui' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='43603'/>
+        <property name='download.size' value='43603'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.compare.samples.ui_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.compare.samples.ui_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.workbench.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='426294'/>
+        <property name='download.size' value='426294'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.workbench.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.workbench.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='TcSoaCommon' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='305742'/>
+        <property name='download.size' value='305742'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/TcSoaCommon_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\TcSoaCommon_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.modeltool' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='15778'/>
+        <property name='download.size' value='15778'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.modeltool_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.modeltool_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.server.ui.cfgext' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='551503'/>
+        <property name='download.size' value='551503'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.server.ui.cfgext_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.server.ui.cfgext_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench3.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5547'/>
+        <property name='download.size' value='5547'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.e4.ui.workbench3.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.e4.ui.workbench3.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.core' version='8.6.1.201812040412'>
+      <properties size='2'>
+        <property name='artifact.size' value='1375853'/>
+        <property name='download.size' value='1375853'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.cdt.managedbuilder.core_8.6.1.201812040412.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.cdt.managedbuilder.core_8.6.1.201812040412.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.update.configurator.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='27674'/>
+        <property name='download.size' value='27674'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.update.configurator.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.update.configurator.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.contexts.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5341'/>
+        <property name='download.size' value='5341'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.e4.core.contexts.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.e4.core.contexts.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='commons_xmlschema' version='1.3.2'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/commons_xmlschema/'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\commons_xmlschema'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.teamcenter.bmide.options.ui' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='88826'/>
+        <property name='download.size' value='88826'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.teamcenter.bmide.options.ui_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.teamcenter.bmide.options.ui_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tcserverjavabinding' version='8000.3.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='104601'/>
+        <property name='download.size' value='104601'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/tcserverjavabinding.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\tcserverjavabinding.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core' version='6.6.0.201812101042'>
+      <properties size='2'>
+        <property name='artifact.size' value='5986195'/>
+        <property name='download.size' value='5986195'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.cdt.core_6.6.0.201812101042.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.cdt.core_6.6.0.201812101042.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.urischeme.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5997'/>
+        <property name='download.size' value='5997'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.urischeme.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.urischeme.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.query' version='1.7.0.201706061326'>
+      <properties size='2'>
+        <property name='artifact.size' value='145112'/>
+        <property name='download.size' value='145112'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.emf.query_1.7.0.201706061326.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.emf.query_1.7.0.201706061326.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.doc.user.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5423'/>
+        <property name='download.size' value='5423'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.jdt.doc.user.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.jdt.doc.user.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='TcSoaCoreTypes' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1022104'/>
+        <property name='download.size' value='1022104'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/TcSoaCoreTypes_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\TcSoaCoreTypes_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.views.properties.tabbed.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='15892'/>
+        <property name='download.size' value='15892'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.views.properties.tabbed.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.views.properties.tabbed.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.filesystem.win32.x86_64.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='5928'/>
+        <property name='download.size' value='5928'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.core.filesystem.win32.x86_64.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.core.filesystem.win32.x86_64.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.sun.xml.bind' version='2.2.0.v201505121915'>
+      <properties size='2'>
+        <property name='artifact.size' value='954855'/>
+        <property name='download.size' value='954855'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/com.sun.xml.bind_2.2.0.v201505121915.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\com.sun.xml.bind_2.2.0.v201505121915.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.views.nl' version='13000.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='24743'/>
+        <property name='download.size' value='24743'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Siemens/TC13_01/bmide/client/plugins/org.eclipse.ui.views.nl_13000.1.0.jar'/>
+        <property name='file.name' value='C:\Siemens\TC13_01\bmide\client\plugins\org.eclipse.ui.views.nl_13000.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

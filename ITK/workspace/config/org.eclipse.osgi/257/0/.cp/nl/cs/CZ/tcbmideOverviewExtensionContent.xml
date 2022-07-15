@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+bcprt
+This software and related documentation are proprietary to UGS Corp.
+COPYRIGHT 2005 UGS CORP.  ALL RIGHTS RESERVED
+ecprt
+-->
+<introContent>
+    
+   <!-- Adds "Teamcenter Business Modeler IDE" to the Overview page. -->
+   <extensionContent id="com.teamcenter.bmide" name="IDE Modeláře procesů Teamcenteru" alt-style="css/swt.properties" style="css/tcbmide.css" path="overview/@">
+     
+   <group label="Integrované vývojové prostředí (IDE) Modeláře procesů Teamcenteru" id="tcbmideoverview" style-id="tcbmide-group">
+		   
+    <link label="Přehled procesu" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/bmide_process_overview.html" id="tcbmide">
+		<text>Načíst přehled pracovního procesu při použití IDE Modeláře procesů</text>
+    	</link>
+      
+    <link label="Účel" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/UsingTheIDE.html" id="tcbmide">
+		<text>Načíst položky datového modelu, které lze vytvořit pomocí IDE Modeláře procesů Teamcenteru</text>
+    	</link>
+
+	<link label="Uživatelské rozhraní" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/BMIDEUserInterface.html" id="tcbmide">
+		<text>Úvod k uživatelskému rozhraní</text>
+        </link>
+
+	<link label="Nastavení" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/ConfiguringBMIDE.html" id="tcbmide">
+		<text>Zjistit způsob konfigurace IDE Modeláře procesů</text>
+        </link>
+
+	<link label="Základní úlohy" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/BasicTasksUsingTheBMIDE.html" id="tcbmide">
+		<text>Zobrazit základní úlohy, které lze provést s IDE Modeláře procesů</text>
+        </link>
+
+      </group>
+
+   </extensionContent>
+   
+</introContent>

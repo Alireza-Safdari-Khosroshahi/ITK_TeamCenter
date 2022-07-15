@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+bcprt
+This software and related documentation are proprietary to UGS Corp.
+COPYRIGHT 2005 UGS CORP.  ALL RIGHTS RESERVED
+ecprt
+-->
+<introContent>
+    
+<!-- Adds "Business Modeler IDE Assistant link" to the Tutorials page. -->
+<extensionContent id="com.teamcenter.bmide" name="Teamcenter Business Modeler IDE" alt-style="css/swt.properties" style="css/tcbmide.css" path="tutorials/@">
+    
+ <group label="Łącze do asystenta Business Modeler IDE" id="tcbmidegeneraltutorials" style-id="tcbmide-group">
+    <link url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.teamcenter.bmide.helpguide.cheatsheets.bmideassistant" label="Praca w środowisku Business Modeler IDE" id="tcbmide" style-id="tcbmide-link">
+        <text>Zapoznanie się ze środowiskiem Business Modeler IDE</text>
+     </link>
+ </group>
+
+     
+ <!--group label="Work With Business Objects and Classes" id="tcbmidegeneraltutorials" style-id="tcbmide-group">
+
+     <link url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.teamcenter.bmide.helpguide.cheatsheets.creatingbusinessobjects" label="Create a business object" id="tcbmide" style-id="tcbmide-link">
+         <text>Create business objects such as part items and documents</text>
+     </link>
+
+     <link url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.teamcenter.bmide.helpguide.cheatsheets.creatingclasses" label="Create a class" id="tcbmide" style-id="tcbmide-link">
+         <text>Create classes, the persistent representations of the data model schema</text>
+     </link>
+
+     <link url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.teamcenter.bmide.helpguide.cheatsheets.managingattributes" label="Manage attributes" id="tcbmide" style-id="tcbmide-link">
+         <text>Manage attributes, the item characteristics such as name, number, and so on that are are attached to classes and business objects</text>
+     </link>
+
+    <link url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.teamcenter.bmide.helpguide.cheatsheets.usingtheumleditor" label="Use the UML Editor" id="tcbmide" style-id="tcbmide-link">
+        <text>Use the UML Editor to create business objects and classes, as well as manage attributes</text>
+     </link>
+
+     <link url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.teamcenter.bmide.helpguide.cheatsheets.creatinglovs" label="Create a list of values" id="tcbmide" style-id="tcbmide-link">
+	     <text>Create a pick list of values for a property on a business object</text>
+     </link>
+     
+ </group-->
+
+
+ <!--group label="Work With Rules" id="tcbmidegeneraltutorials" style-id="tcbmide-group">
+
+     <link url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.teamcenter.bmide.helpguide.cheatsheets.addinggrmrules" label="Create a relationship rule" id="tcbmide" style-id="tcbmide-link">
+	     <text>Create a Generic Relationship Management (GRM) rule to define the relationship between two business objects</text>
+     </link>
+
+     <link url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.teamcenter.bmide.helpguide.cheatsheets.creatingnamingrules" label="Create a naming rule" id="tcbmide" style-id="tcbmide-link">
+	     <text>Create a rule that defines how objects are named</text>
+     </link>
+
+     <link url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.teamcenter.bmide.helpguide.cheatsheets.creatingdeepcopyrules" label="Create a deep copy rule" id="tcbmide" style-id="tcbmide-link">
+	     <text>Create a rule that defines how an item revision business object can be copied and pasted in Teamcenter</text>
+     </link>
+
+     <link url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.teamcenter.bmide.helpguide.cheatsheets.creatingtypedisplayrules" label="Create a business object display rule" id="tcbmide" style-id="tcbmide-link">
+	     <text>Create a rule that limits the kinds of objects that can be created by particular groups or roles</text>
+     </link>
+
+ </group-->
+
+</extensionContent>
+
+</introContent>
+

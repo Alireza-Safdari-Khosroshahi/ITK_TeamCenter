@@ -1,0 +1,21 @@
+﻿<html>
+<LINK href="css/tcbmide.css" rel="stylesheet" type="text/css">
+<body>
+<H2 id="introtitle">入門...</H2>
+<p id="introtext">
+     <BR/>歡迎使用 BMIDE！BMIDE 用於檢視和擴展 Teamcenter 資料模型與行為、將其部署到測試 Teamcenter 環境進行驗證、即時運用擴展並在即時生產環境中編輯擴展。通過 BMIDE，以上這些活動均可以實現。<BR/><BR/>
+     為此，一開始您要<B>建立一個專案</B>。該專案幫助 BMIDE 理解您要實現的活動類型，並充當所有擴展的容器。點擊以下任意一個類型的專案，瞭解其用途。在您確定要建立的專案類型後，點擊<B>建立</B>按鈕開始建立。
+     </p>
+<div id="templateprojectintro">
+<p style="background-color:#F3F3F3;padding:20px;"><a href="http://org.eclipse.ui.intro/runAction?pluginId=com.teamcenter.bmide.server.ui&amp;class=com.teamcenter.bmide.server.ui.internal.actions.NewExternalFileRepositoryProjectAction&amp;" style="color:#3366AA;margin-left : 4em;">建立新的 BMIDE 範本</a></p><BR/>
+     <p style="color:black;">如果這是您第一次擴展 Teamcenter，則必須先建立一個範本專案。該範本將充當您在 BMIDE 內建立的所有業務物件、屬性和行為的容器。然後可以將該範本部署到 Teamcenter 環境進行測試。通過驗證後，可以將該範本安裝到生產站點供使用者使用。</p>
+     </div>
+<div id="opsprojectintro">
+<p style="background-color:#F3F3F3;padding:20px;"><a href="http://org.eclipse.ui.intro/runAction?pluginId=com.teamcenter.bmide.server.ui&amp;class=com.teamcenter.bmide.server.ui.internal.actions.NewOperationalDataProjectAction&amp;" style="color:#3366AA;margin-left : 4em;" >對現有 BMIDE 範本執行即時更新</a></p><BR/>
+<p style="color:black;">有時候您可能要編輯即時執行的生產站點的行為。例如，您可能要新增一個 LOV 值、狀態或 ID 關聯。BMIDE 使用這類專案幫助您執行即時更新，而不必關閉 Teamcenter 系統。在可以使用這類專案之前，必須先建立一個範本專案，並將其安裝到生產站點（見上方）。</p></div>     
+
+<div id="upgradeprojectintro">
+<p style="background-color:#F3F3F3;padding:20px;"><a href="http://org.eclipse.ui.intro/runAction?pluginId=com.teamcenter.bmide.server.ui&amp;class=com.teamcenter.bmide.server.ui.internal.actions.NewFileRepositoryProjectImportAction&amp;" style="color:#3366AA;margin-left : 4em;">從上一個 Teamcenter 發行版本升級 BMIDE 範本</a></p><BR/>
+<p style="color:black;">如果正在將 Teamcenter 安裝升級到一個新的 Teamcenter 版本，則應先升級 BMIDE 範本。升級範本是必需的，因為上一版本的範本不會與新版本的 Teamcenter 相容。要升級 BMIDE 範本，先安裝新版本的 BMIDE 用戶端，然後點擊「升級範本」圖示，使用該精靈將目前的 BMIDE 範本升級到新的發行版本。有關完整的升級步驟，請參見 &quot;Upgrade Guide&quot;。</p><BR/>     </div>
+</body>
+</html>

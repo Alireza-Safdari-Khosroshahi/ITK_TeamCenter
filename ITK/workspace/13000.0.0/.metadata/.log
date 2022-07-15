@@ -1,0 +1,173 @@
+!SESSION 2021-12-07 14:44:27.363 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean
+
+!ENTRY org.eclipse.equinox.app 0 0 2021-12-07 14:44:34.590
+!MESSAGE Product com.teamcenter.bmide.branding.product could not be found.
+
+!ENTRY org.eclipse.help.base 2 0 2021-12-07 14:45:19.384
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.cdt.doc.user_5.4.1.201811241055 [305]'. The index should be rebuilt with Lucene 7.0.0
+
+!ENTRY org.eclipse.help.base 2 0 2021-12-07 14:45:19.462
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.cdt.doc.isv_5.4.1.201811241055 [304]'. The index should be rebuilt with Lucene 7.0.0
+
+!ENTRY org.eclipse.help.base 4 4 2021-12-07 14:45:21.636
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.636
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_irdc.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.636
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_unit_of_measure.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.636
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_tutorial_change_order.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.636
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_sample_elements.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.636
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_navigation.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.636
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_tutorial_change.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_tutorial_delete.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_focus_on_your_actions.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_multiple_merges.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_viewing_one_at_a_time.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_naming_rule_attach.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_changing_the_merge_colors.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_tutorial_change_conflict.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_tutorial_add.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_next_step.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/editing_operational_data_flow_2.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_tutorial_change_order_conflict.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_tutorial_change_no_action.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_naming_rule.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/editing_operational_data_flow_1.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_lov_fun_with_ordering.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_tutorial_change_order_no_action.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_getting_started.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_combined_model_elements.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_condition.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_lov.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_skipping_the_non_esssentials.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_auto_merge_with_change_conflict.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_auto_merge.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_tutorial_equal.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_deep_copy_rule.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_tutorial_add_no_action.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/editing_operational_data_flow_4.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/editing_operational_data_flow_3.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_tool.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2021-12-07 14:45:21.637
+!MESSAGE Help document /com.teamcenter.bmide.helpguide/guide/merge_samples_tutorial_delete_no_action.html cannot be opened.
+
+!ENTRY org.eclipse.ui 4 0 2021-12-07 14:45:53.094
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.teamcenter.bmide.server.ui.util.ServerUIResourceUtil$2.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:168)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:474)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:240)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:527)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.access$2(IDEWorkbenchAdvisor.java:504)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.run(IDEWorkbenchAdvisor.java:345)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:366)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:2972)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1161)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1410)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1410)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1383)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1641)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:1670)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1670)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1679)
+	at org.eclipse.ui.internal.WorkbenchWindow$4.close(WorkbenchWindow.java:535)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:577)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:284)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1574)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4770)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3545)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.equinox.internal.app.MainApplicationLauncher.run(MainApplicationLauncher.java:36)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)

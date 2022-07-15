@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+bcprt
+This software and related documentation are proprietary to UGS Corp.
+COPYRIGHT 2005 UGS CORP.  ALL RIGHTS RESERVED
+ecprt
+-->
+<introContent>
+    
+   <!-- Adds "Teamcenter Business Modeler IDE" to the Overview page. -->
+   <extensionContent id="com.teamcenter.bmide" name="Teamcenter 業務建模器 IDE" alt-style="css/swt.properties" style="css/tcbmide.css" path="overview/@">
+     
+   <group label="Teamcenter 業務建模器整合式開發環境 (IDE)" id="tcbmideoverview" style-id="tcbmide-group">
+		   
+    <link label="流程概述" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/bmide_process_overview.html" id="tcbmide">
+		<text>概述使用業務建模器 IDE 時的工作流程</text>
+    	</link>
+      
+    <link label="目的" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/UsingTheIDE.html" id="tcbmide">
+		<text>瞭解可使用 Teamcenter 業務建模器 IDE 建立的資料模型項目</text>
+    	</link>
+
+	<link label="使用者介面" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/BMIDEUserInterface.html" id="tcbmide">
+		<text>簡介使用者介面</text>
+        </link>
+
+	<link label="設定" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/ConfiguringBMIDE.html" id="tcbmide">
+		<text>確定如何配置業務建模器 IDE</text>
+        </link>
+
+	<link label="基本任務" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/BasicTasksUsingTheBMIDE.html" id="tcbmide">
+		<text>瞭解可通過業務建模器 IDE 執行的基本任務</text>
+        </link>
+
+      </group>
+
+   </extensionContent>
+   
+</introContent>

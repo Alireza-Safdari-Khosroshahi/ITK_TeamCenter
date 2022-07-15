@@ -1,0 +1,67 @@
+## How to setup VS for ITK
+add in solution property -> linker -> input 
+    C:\Siemens\TC_ROOT\lib\*.lib
+    C:\Siemens\TC_ROOT\lib\itk_main.obj
+add in solution property -> c/c++ -> General -> additional inblude directories 
+    C:\Siemens\TC_ROOT\include
+add in solution property -> c/c++ -> Preprocessor -> Preprocessor Definitions 
+    IPLIB=none
+add in solution property -> Configuration -> Debugging -> Cammand Arguments
+    -u=infodba -p=infodba -g=dba
+
+
+
+
+
+
+COMPILER UND oBJECT
+
+Step1: set MSDEV_HOME=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC
+
+Step 2: Run cmd as Adminstrator
+
+Step 3: go to your program location (cd .....)
+
+Step 4: C:\Siemens\TC13_01\sample\compile -DIPLIB=none Serach.cpp
+
+Step 5: C:\Siemens\TC13_01\sample\compile -DIPLIB=none Search Serach.obj 
+
+Step 6: Search.exe -u=infodba -p=infodba -g=dba -item_id=MD0000275
+
+
+
+
+
+
+
+
+
+C:\Siemens\TC13_01\sample\linkitk -o ChangeOwnership ChangeOwnership.obj
+
+Delet_Item.cpp.exe -u=infodba -p=infodba -g=dba
+
+C:\Siemens\TC13_01\sample\compile -DIPLIB=none Delete_Item.cpp 
+
+C:\Siemens\TC13_01\sample\linkitk -o Delet_Item Delete_Item.obj
+
+Delet_Item.exe -u=infodba -p=infodba -g=dba -itemtype=Part -oou=infodba -oog=dba -nou=abbas -nog=Engineering
+
+-u=infodba -p=infodba -g=dba itemtype=part rezaei:Engineering rezaei:Product Development
+
+Delet_Item.exe -u=infodba -p=infodba -g=dba -itemtype=Part -oou=infodba -oog=dba -nou=abbas -nog=Engineering
+
+Delet_Item.exe -u=infodba -p=infodba -g=dba -itemtype=Part -oou=abbas -oog=Engineering -nou=infodba -nog=dba
+
+Delet_Item.exe -u=abbas -p=123 -g=dba -itemtype=Part -s=Obsolete
+
+
+
+
+
+
+
+
+
+C:\Siemens\TC_ROOT\sample\compile -DIPLIB=none testApp.cpp
+
+C:\Siemens\TC_ROOT\sample\linkitk -o testApp testApp.obj

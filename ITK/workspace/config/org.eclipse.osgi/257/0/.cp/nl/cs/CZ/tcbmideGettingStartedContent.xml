@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<introContent>
+	<extensionContent id="com.teamcenter.bmide" name="IDE Modeláře procesů Teamcenteru"
+		alt-style="css/swt.properties" style="css/tcbmide.css" path="root/head-anchor">
+		<html id="as" src="welcomepageheader.html" type="inline" style-id="header_html" />
+		<group label="" id="tcbmideoverview" >
+			<link label=""
+				url="http://org.eclipse.ui.intro/runAction?pluginId=com.teamcenter.bmide.server.ui&amp;class=com.teamcenter.bmide.server.ui.internal.actions.NewExternalFileRepositoryProjectAction&amp;"
+				id="tcbmide-wp-tp-link"
+				style-id="tcbmide-wp-tp-link">
+			</link>			
+			<link label=""
+				url="http://org.eclipse.ui.intro/runAction?pluginId=com.teamcenter.bmide.server.ui&amp;class=com.teamcenter.bmide.server.ui.internal.actions.NewOperationalDataProjectAction&amp;"
+				id="tcbmide-wp-op-link"
+				style-id="tcbmide-wp-op-link">
+			</link>
+			<link label=""
+				url="http://org.eclipse.ui.intro/runAction?pluginId=com.teamcenter.bmide.server.ui&amp;class=com.teamcenter.bmide.server.ui.internal.actions.NewFileRepositoryProjectImportAction&amp;"
+				id="tcbmide-wp-op1-link"
+				style-id="tcbmide-wp-op1-link">
+			</link>
+		</group>
+	</extensionContent>
+</introContent>

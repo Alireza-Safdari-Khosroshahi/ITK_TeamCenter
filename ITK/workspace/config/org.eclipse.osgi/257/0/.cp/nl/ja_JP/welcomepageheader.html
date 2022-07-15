@@ -1,0 +1,21 @@
+﻿<html>
+<LINK href="css/tcbmide.css" rel="stylesheet" type="text/css">
+<body>
+<H2 id="introtitle">はじめに...</H2>
+<p id="introtext">
+     <BR/>BMIDE(ビジネスモデラIDE)へようこそ! BMIDEは、Teamcenterデータモデルおよびビヘイビアの表示および拡張、テストTeamcenter環境への検証のための展開、ユーザ固有の拡張の定義、ライブ生産環境における拡張内容の編集に使用されます。BMIDEは、これらの活動を遂行する補助となります。<BR/><BR/>
+     最初に、<B>プロジェクトの作成</B>を実行する必要があります。 プロジェクトは、ユーザがどの種類の活動を実現したいかと、すべての拡張に対するコンテナとしてのアクションを、BMIDEに理解させることを補助します。次のプロジェクトのタイプをクリックすると、それらが何に対して使用されていたかを確認できます。作成したいタイプのプロジェクトを特定したら、<B>作成</B>ボタンをクリックして開始します。
+     </p>
+<div id="templateprojectintro">
+<p style="background-color:#F3F3F3;padding:20px;"><a href="http://org.eclipse.ui.intro/runAction?pluginId=com.teamcenter.bmide.server.ui&amp;class=com.teamcenter.bmide.server.ui.internal.actions.NewExternalFileRepositoryProjectAction&amp;" style="color:#3366AA;margin-left : 4em;">新規BMIDEテンプレートの作成</a></p><BR/>
+     <p style="color:black;">Teamcenterを初めて拡張する場合は、最初にテンプレートプロジェクトを作成しなければなりません。 テンプレートは、BMIDE内で作成するすべてのビジネスオブジェクト、プロパティおよびビヘイビアに対するコンテナとして動作します。 それから、このテンプレートを、テストを目的として、Teamcenter環境に展開することができます。検証後に、テンプレートを生産サイトにインストールして、ユーザが担当しているお客様に活用していただくことができます。</p>
+     </div>
+<div id="opsprojectintro">
+<p style="background-color:#F3F3F3;padding:20px;"><a href="http://org.eclipse.ui.intro/runAction?pluginId=com.teamcenter.bmide.server.ui&amp;class=com.teamcenter.bmide.server.ui.internal.actions.NewOperationalDataProjectAction&amp;" style="color:#3366AA;margin-left : 4em;" >既存のBMIDEテンプレートへのライブ更新の実行</a></p><BR/>
+<p style="color:black;">時として、稼働中のライブ生産サイトのビヘイビアを編集しても構いません。 例えば、LOV値、ステータス、またはIDコンテキストを追加しても構いません。BMIDEは、このタイプのプロジェクトを使用して、Teamcenterシステムをダウンさせずにライブ更新を実行することを補助します。このタイプのプロジェクトを使用できるようになる前に、テンプレートプロジェクトが作成されていて、かつ生産サイトにインストールされていなければなりません(下記参照)。</p></div>     
+
+<div id="upgradeprojectintro">
+<p style="background-color:#F3F3F3;padding:20px;"><a href="http://org.eclipse.ui.intro/runAction?pluginId=com.teamcenter.bmide.server.ui&amp;class=com.teamcenter.bmide.server.ui.internal.actions.NewFileRepositoryProjectImportAction&amp;" style="color:#3366AA;margin-left : 4em;">以前のTeamcenterリリースからのBMIDEテンプレートのアップグレード</a></p><BR/>
+<p style="color:black;">Teamcenterインストールを新しいバージョンのTeamcenterへアップグレードする処理を行うには、最初にBMIDEテンプレートをアップグレードする必要があります。以前のバージョンのテンプレートは、新しいバージョンのTeamcenterとは互換性がなくなるため、テンプレートのアップグレードが必要です。BMIDEテンプレートをアップグレードするには、最初に新しいバージョンのBMIDE クライアントをインストールして、それから、「テンプレートをアップグレード」アイコンをクリックし、ウィザードを使用して、現在のBMIDEを新しいリリースへとアップグレードします。アップグレードの完全な手順については、「アップグレードガイド」を参照してください。</p><BR/>     </div>
+</body>
+</html>

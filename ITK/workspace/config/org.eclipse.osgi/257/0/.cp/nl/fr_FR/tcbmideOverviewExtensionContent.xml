@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+bcprt
+This software and related documentation are proprietary to UGS Corp.
+COPYRIGHT 2005 UGS CORP.  ALL RIGHTS RESERVED
+ecprt
+-->
+<introContent>
+    
+   <!-- Adds "Teamcenter Business Modeler IDE" to the Overview page. -->
+   <extensionContent id="com.teamcenter.bmide" name="Teamcenter Business Modeler IDE" alt-style="css/swt.properties" style="css/tcbmide.css" path="overview/@">
+     
+   <group label="Environnement de développement intégré (IDE) du Modèle de travail Teamcenter" id="tcbmideoverview" style-id="tcbmide-group">
+		   
+    <link label="Aperçu du processus" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/bmide_process_overview.html" id="tcbmide">
+		<text>Obtenir un aperçu du processus de travail lors de l'utilisation de l'IDE Modèle de travail.</text>
+    	</link>
+      
+    <link label="Objectif" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/UsingTheIDE.html" id="tcbmide">
+		<text>Savoir quels éléments du modèle de données vous pouvez créer en utilisant l'IDE Modèle de Travail de Teamcenter.</text>
+    	</link>
+
+	<link label="Interface utilisateur" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/BMIDEUserInterface.html" id="tcbmide">
+		<text>Obtenir une introduction à l'interface utilisateur</text>
+        </link>
+
+	<link label="Configuration" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/ConfiguringBMIDE.html" id="tcbmide">
+		<text>Savoir comment configurer l'IDE Modèle de Travail</text>
+        </link>
+
+	<link label="Tâches de base" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/BasicTasksUsingTheBMIDE.html" id="tcbmide">
+		<text>Consultez les tâches de base que vous pouvez effectuer avec l'IDE Modèle de Travail</text>
+        </link>
+
+      </group>
+
+   </extensionContent>
+   
+</introContent>

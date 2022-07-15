@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1638884699028" transient="false" shared_ur="file:configuration/org.eclipse.update/platform.xml" version="3.0">
+	<site updateable="true" url="file:/C:/Users/PA/Desktop/ITK/workspace/" enabled="true" policy="USER-EXCLUDE">
+	</site>
+	<site updateable="true" url="file:dropins\extra\" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.eclipse.xsd.example" version="2.10.0.v20180914-1817" url="features/org.eclipse.xsd.example_2.10.0.v20180914-1817/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore.editor" version="2.16.0.v20181104-0733" url="features/org.eclipse.emf.ecore.editor_2.16.0.v20181104-0733/">
+		</feature>
+		<feature id="org.eclipse.emf.common.ui" version="2.15.0.v20181104-0733" url="features/org.eclipse.emf.common.ui_2.15.0.v20181104-0733/">
+		</feature>
+		<feature id="org.eclipse.cdt.gnu.debug" version="9.6.0.201811291831" url="features/org.eclipse.cdt.gnu.debug_9.6.0.201811291831/">
+		</feature>
+		<feature id="org.eclipse.emf.databinding.source" version="1.6.0.v20180706-1146" url="features/org.eclipse.emf.databinding.source_1.6.0.v20180706-1146/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore.editor.source" version="2.16.0.v20181104-0733" url="features/org.eclipse.emf.ecore.editor.source_2.16.0.v20181104-0733/">
+		</feature>
+		<feature id="org.eclipse.jdt" version="3.16.0.v20181206-1038" url="features/org.eclipse.jdt_3.16.0.v20181206-1038/">
+		</feature>
+		<feature id="org.eclipse.xsd.ecore.converter.source" version="2.11.0.v20180706-1143" url="features/org.eclipse.xsd.ecore.converter.source_2.11.0.v20180706-1143/">
+		</feature>
+		<feature id="org.eclipse.xsd.mapping.editor.source" version="2.12.0.v20181105-0510" url="features/org.eclipse.xsd.mapping.editor.source_2.12.0.v20181105-0510/">
+		</feature>
+		<feature id="org.eclipse.emf.converter.source" version="2.14.0.v20180706-1146" url="features/org.eclipse.emf.converter.source_2.14.0.v20180706-1146/">
+		</feature>
+		<feature id="org.eclipse.cdt.platform.source" version="9.6.0.201812111211" url="features/org.eclipse.cdt.platform.source_9.6.0.201812111211/">
+		</feature>
+		<feature id="org.eclipse.emf.gwt.common" version="2.12.0.v20180914-1817" url="features/org.eclipse.emf.gwt.common_2.12.0.v20180914-1817/">
+		</feature>
+		<feature id="org.eclipse.emf.gwt.source" version="2.12.0.v20180914-1817" url="features/org.eclipse.emf.gwt.source_2.12.0.v20180914-1817/">
+		</feature>
+		<feature id="org.eclipse.emf.sdk" version="2.16.0.v20181206-1055" url="features/org.eclipse.emf.sdk_2.16.0.v20181206-1055/">
+		</feature>
+		<feature id="org.eclipse.cdt.native.source" version="9.6.0.201811241055" url="features/org.eclipse.cdt.native.source_9.6.0.201811241055/">
+		</feature>
+		<feature id="org.eclipse.cdt.source" version="9.6.0.201812111211" url="features/org.eclipse.cdt.source_9.6.0.201812111211/">
+		</feature>
+		<feature id="org.eclipse.xsd.edit.source" version="2.11.0.v20180706-1143" url="features/org.eclipse.xsd.edit.source_2.11.0.v20180706-1143/">
+		</feature>
+		<feature id="org.eclipse.cdt.gnu.debug.source" version="9.6.0.201811291831" url="features/org.eclipse.cdt.gnu.debug.source_9.6.0.201811291831/">
+		</feature>
+		<feature id="org.eclipse.draw2d" version="3.10.100.201606061308" url="features/org.eclipse.draw2d_3.10.100.201606061308/">
+		</feature>
+		<feature id="org.eclipse.emf.databinding.edit.source" version="1.6.0.v20180823-0456" url="features/org.eclipse.emf.databinding.edit.source_1.6.0.v20180823-0456/">
+		</feature>
+		<feature id="org.eclipse.cdt.gnu.dsf" version="9.6.0.201812061011" url="features/org.eclipse.cdt.gnu.dsf_9.6.0.201812061011/">
+		</feature>
+		<feature id="org.eclipse.emf.base" version="2.16.0.v20181124-0637" url="features/org.eclipse.emf.base_2.16.0.v20181124-0637/">
+		</feature>
+		<feature id="org.eclipse.emf.databinding.edit" version="1.6.0.v20180823-0456" url="features/org.eclipse.emf.databinding.edit_1.6.0.v20180823-0456/">
+		</feature>
+		<feature id="org.eclipse.emf.mapping.ui" version="2.12.0.v20181104-0733" url="features/org.eclipse.emf.mapping.ui_2.12.0.v20181104-0733/">
+		</feature>
+		<feature id="org.eclipse.cdt.platform" version="9.6.0.201812111211" url="features/org.eclipse.cdt.platform_9.6.0.201812111211/">
+		</feature>
+		<feature id="org.eclipse.emf.mapping.ecore" version="2.11.0.v20180706-1146" url="features/org.eclipse.emf.mapping.ecore_2.11.0.v20180706-1146/">
+		</feature>
+		<feature id="org.eclipse.emf.mapping" version="2.12.0.v20181104-0733" url="features/org.eclipse.emf.mapping_2.12.0.v20181104-0733/">
+		</feature>
+		<feature id="org.eclipse.xsd" version="2.16.0.v20181127-0852" url="features/org.eclipse.xsd_2.16.0.v20181127-0852/">
+		</feature>
+		<feature id="org.eclipse.emf.mapping.ecore.editor" version="2.13.0.v20181104-0733" url="features/org.eclipse.emf.mapping.ecore.editor_2.13.0.v20181104-0733/">
+		</feature>
+		<feature id="org.eclipse.emf.gwt.edit.ui" version="2.10.0.v20180706-1146" url="features/org.eclipse.emf.gwt.edit.ui_2.10.0.v20180706-1146/">
+		</feature>
+		<feature id="org.eclipse.gef.source" version="3.11.0.201606061308" url="features/org.eclipse.gef.source_3.11.0.201606061308/">
+		</feature>
+		<feature id="org.eclipse.emf.common.source" version="2.15.0.v20180914-1817" url="features/org.eclipse.emf.common.source_2.15.0.v20180914-1817/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore.source" version="2.16.0.v20181124-0637" url="features/org.eclipse.emf.ecore.source_2.16.0.v20181124-0637/">
+		</feature>
+		<feature id="org.eclipse.emf.edit.ui.source" version="2.16.0.v20181104-0733" url="features/org.eclipse.emf.edit.ui.source_2.16.0.v20181104-0733/">
+		</feature>
+		<feature id="org.eclipse.cdt.gdb" version="9.6.0.201811241055" url="features/org.eclipse.cdt.gdb_9.6.0.201811241055/">
+		</feature>
+		<feature id="org.eclipse.emf.edit.source" version="2.14.0.v20180823-0456" url="features/org.eclipse.emf.edit.source_2.14.0.v20180823-0456/">
+		</feature>
+		<feature id="org.eclipse.zest" version="1.7.0.201606061308" url="features/org.eclipse.zest_1.7.0.201606061308/" plugin-identifier="org.eclipse.zest.core">
+		</feature>
+		<feature id="org.eclipse.emf.all" version="2.16.0.v20181206-1055" url="features/org.eclipse.emf.all_2.16.0.v20181206-1055/">
+		</feature>
+		<feature id="org.eclipse.emf.mapping.ui.source" version="2.12.0.v20181104-0733" url="features/org.eclipse.emf.mapping.ui.source_2.12.0.v20181104-0733/">
+		</feature>
+		<feature id="org.eclipse.emf.codegen.ui" version="2.10.0.v20180706-1146" url="features/org.eclipse.emf.codegen.ui_2.10.0.v20180706-1146/">
+		</feature>
+		<feature id="org.eclipse.emf.gwt.ecore.edit" version="2.11.0.v20180706-1146" url="features/org.eclipse.emf.gwt.ecore.edit_2.11.0.v20180706-1146/">
+		</feature>
+		<feature id="org.eclipse.emf.source" version="2.16.0.v20181206-1055" url="features/org.eclipse.emf.source_2.16.0.v20181206-1055/">
+		</feature>
+		<feature id="org.eclipse.xsd.editor" version="2.12.0.v20180706-1143" url="features/org.eclipse.xsd.editor_2.12.0.v20180706-1143/">
+		</feature>
+		<feature id="org.eclipse.xsd.sdk" version="2.16.0.v20181127-0852" url="features/org.eclipse.xsd.sdk_2.16.0.v20181127-0852/">
+		</feature>
+		<feature id="org.eclipse.emf.edit.ui" version="2.16.0.v20181104-0733" url="features/org.eclipse.emf.edit.ui_2.16.0.v20181104-0733/">
+		</feature>
+		<feature id="org.eclipse.emf.gwt.sdk" version="2.13.0.v20181102-1001" url="features/org.eclipse.emf.gwt.sdk_2.13.0.v20181102-1001/">
+		</feature>
+		<feature id="org.eclipse.emf.common.ui.source" version="2.15.0.v20181104-0733" url="features/org.eclipse.emf.common.ui.source_2.15.0.v20181104-0733/">
+		</feature>
+		<feature id="org.eclipse.emf.converter" version="2.14.0.v20180706-1146" url="features/org.eclipse.emf.converter_2.14.0.v20180706-1146/">
+		</feature>
+		<feature id="org.eclipse.emf" version="2.16.0.v20181206-1055" url="features/org.eclipse.emf_2.16.0.v20181206-1055/">
+		</feature>
+		<feature id="org.eclipse.gef" version="3.11.0.201606061308" url="features/org.eclipse.gef_3.11.0.201606061308/">
+		</feature>
+		<feature id="org.eclipse.xsd.doc" version="2.12.0.v20181102-0958" url="features/org.eclipse.xsd.doc_2.12.0.v20181102-0958/">
+		</feature>
+		<feature id="org.eclipse.xsd.ecore.converter" version="2.11.0.v20180706-1143" url="features/org.eclipse.xsd.ecore.converter_2.11.0.v20180706-1143/">
+		</feature>
+		<feature id="org.eclipse.xsd.source" version="2.16.0.v20181127-0852" url="features/org.eclipse.xsd.source_2.16.0.v20181127-0852/">
+		</feature>
+		<feature id="org.eclipse.emf.mapping.ecore.editor.source" version="2.13.0.v20181104-0733" url="features/org.eclipse.emf.mapping.ecore.editor.source_2.13.0.v20181104-0733/">
+		</feature>
+		<feature id="org.eclipse.cdt.gnu.build.source" version="9.6.0.201811241055" url="features/org.eclipse.cdt.gnu.build.source_9.6.0.201811241055/">
+		</feature>
+		<feature id="org.eclipse.cdt.gdb.source" version="9.6.0.201811241055" url="features/org.eclipse.cdt.gdb.source_9.6.0.201811241055/" plugin-identifier="org.eclipse.cdt.gdb">
+		</feature>
+		<feature id="org.eclipse.emf.gwt.edit" version="2.10.0.v20180706-1146" url="features/org.eclipse.emf.gwt.edit_2.10.0.v20180706-1146/">
+		</feature>
+		<feature id="org.eclipse.jdt.source" version="3.16.0.v20181206-1038" url="features/org.eclipse.jdt.source_3.16.0.v20181206-1038/">
+		</feature>
+		<feature id="org.eclipse.emf.examples" version="2.14.0.v20180914-1817" url="features/org.eclipse.emf.examples_2.14.0.v20180914-1817/">
+		</feature>
+		<feature id="org.eclipse.xsd.mapping.editor" version="2.12.0.v20181105-0510" url="features/org.eclipse.xsd.mapping.editor_2.12.0.v20181105-0510/">
+		</feature>
+		<feature id="org.eclipse.cdt.native" version="9.6.0.201811241055" url="features/org.eclipse.cdt.native_9.6.0.201811241055/">
+		</feature>
+		<feature id="org.eclipse.emf.gwt.common.source" version="2.12.0.v20180914-1817" url="features/org.eclipse.emf.gwt.common.source_2.12.0.v20180914-1817/">
+		</feature>
+		<feature id="org.eclipse.emf.gwt.ecore" version="2.12.0.v20180706-1146" url="features/org.eclipse.emf.gwt.ecore_2.12.0.v20180706-1146/">
+		</feature>
+		<feature id="org.eclipse.xsd.mapping.source" version="2.11.0.v20180706-1143" url="features/org.eclipse.xsd.mapping.source_2.11.0.v20180706-1143/">
+		</feature>
+		<feature id="org.eclipse.emf.edit" version="2.14.0.v20180823-0456" url="features/org.eclipse.emf.edit_2.14.0.v20180823-0456/">
+		</feature>
+		<feature id="org.eclipse.emf.codegen.ecore.ui.source" version="2.16.0.v20181104-0826" url="features/org.eclipse.emf.codegen.ecore.ui.source_2.16.0.v20181104-0826/">
+		</feature>
+		<feature id="org.eclipse.cdt.gnu.dsf.source" version="9.6.0.201812061011" url="features/org.eclipse.cdt.gnu.dsf.source_9.6.0.201812061011/">
+		</feature>
+		<feature id="org.eclipse.emf.codegen.ecore.source" version="2.16.0.v20181206-1055" url="features/org.eclipse.emf.codegen.ecore.source_2.16.0.v20181206-1055/">
+		</feature>
+		<feature id="org.eclipse.xsd.mapping" version="2.11.0.v20180706-1143" url="features/org.eclipse.xsd.mapping_2.11.0.v20180706-1143/">
+		</feature>
+		<feature id="org.eclipse.cdt" version="9.6.0.201812111211" url="features/org.eclipse.cdt_9.6.0.201812111211/">
+		</feature>
+		<feature id="org.eclipse.draw2d.source" version="3.10.100.201606061308" url="features/org.eclipse.draw2d.source_3.10.100.201606061308/">
+		</feature>
+		<feature id="org.eclipse.emf.codegen.ecore.ui" version="2.16.0.v20181104-0826" url="features/org.eclipse.emf.codegen.ecore.ui_2.16.0.v20181104-0826/">
+		</feature>
+		<feature id="org.eclipse.emf.codegen.source" version="2.15.0.v20181120-2156" url="features/org.eclipse.emf.codegen.source_2.15.0.v20181120-2156/">
+		</feature>
+		<feature id="org.eclipse.emf.doc" version="2.15.0.v20181102-1001" url="features/org.eclipse.emf.doc_2.15.0.v20181102-1001/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore.edit.source" version="2.11.0.v20180823-0905" url="features/org.eclipse.emf.ecore.edit.source_2.11.0.v20180823-0905/">
+		</feature>
+		<feature id="org.eclipse.emf.codegen.ecore" version="2.16.0.v20181206-1055" url="features/org.eclipse.emf.codegen.ecore_2.16.0.v20181206-1055/">
+		</feature>
+		<feature id="org.eclipse.emf.gwt.edit.source" version="2.10.0.v20180706-1146" url="features/org.eclipse.emf.gwt.edit.source_2.10.0.v20180706-1146/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore.edit" version="2.11.0.v20180823-0905" url="features/org.eclipse.emf.ecore.edit_2.11.0.v20180823-0905/">
+		</feature>
+		<feature id="org.eclipse.emf.gwt.edit.ui.source" version="2.10.0.v20180706-1146" url="features/org.eclipse.emf.gwt.edit.ui.source_2.10.0.v20180706-1146/">
+		</feature>
+		<feature id="org.eclipse.cdt.sdk" version="9.6.0.201812111211" url="features/org.eclipse.cdt.sdk_9.6.0.201812111211/">
+		</feature>
+		<feature id="org.eclipse.emf.mapping.source" version="2.12.0.v20181104-0733" url="features/org.eclipse.emf.mapping.source_2.12.0.v20181104-0733/">
+		</feature>
+		<feature id="org.eclipse.emf.gwt" version="2.12.0.v20180914-1817" url="features/org.eclipse.emf.gwt_2.12.0.v20180914-1817/">
+		</feature>
+		<feature id="org.eclipse.emf.databinding" version="1.6.0.v20180706-1146" url="features/org.eclipse.emf.databinding_1.6.0.v20180706-1146/">
+		</feature>
+		<feature id="org.eclipse.emf.codegen" version="2.15.0.v20181120-2156" url="features/org.eclipse.emf.codegen_2.15.0.v20181120-2156/">
+		</feature>
+		<feature id="org.eclipse.emf.codegen.ui.source" version="2.10.0.v20180706-1146" url="features/org.eclipse.emf.codegen.ui.source_2.10.0.v20180706-1146/">
+		</feature>
+		<feature id="org.eclipse.zest.source" version="1.7.0.201606061308" url="features/org.eclipse.zest.source_1.7.0.201606061308/">
+		</feature>
+		<feature id="org.eclipse.emf.gwt.ecore.edit.source" version="2.11.0.v20180706-1146" url="features/org.eclipse.emf.gwt.ecore.edit.source_2.11.0.v20180706-1146/">
+		</feature>
+		<feature id="org.eclipse.xsd.edit" version="2.11.0.v20180706-1143" url="features/org.eclipse.xsd.edit_2.11.0.v20180706-1143/">
+		</feature>
+		<feature id="org.eclipse.xsd.editor.source" version="2.12.0.v20180706-1143" url="features/org.eclipse.xsd.editor.source_2.12.0.v20180706-1143/">
+		</feature>
+		<feature id="org.eclipse.emf.gwt.ecore.source" version="2.12.0.v20180706-1146" url="features/org.eclipse.emf.gwt.ecore.source_2.12.0.v20180706-1146/">
+		</feature>
+		<feature id="org.eclipse.cdt.gnu.build" version="9.6.0.201811241055" url="features/org.eclipse.cdt.gnu.build_9.6.0.201811241055/">
+		</feature>
+		<feature id="org.eclipse.emf.mapping.ecore.source" version="2.11.0.v20180706-1146" url="features/org.eclipse.emf.mapping.ecore.source_2.11.0.v20180706-1146/">
+		</feature>
+	</site>
+</config>

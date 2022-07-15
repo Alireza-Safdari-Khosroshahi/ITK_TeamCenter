@@ -1,0 +1,21 @@
+﻿<html>
+<LINK href="css/tcbmide.css" rel="stylesheet" type="text/css">
+<body>
+<H2 id="introtitle">Introduzione</H2>
+<p id="introtext">
+     <BR/>Questo &egrave; il modulo BMIDE. BMIDE viene usato non solo per visualizzare ed estendere il modello e i comportamenti dei dati di Teamcenter distribuendoli a un ambiente di prova di Teamcenter per la convalida, ma anche per pubblicare e modificare le estensioni in un ambiente di produzione live.   <BR/><BR/>
+     Per iniziare &egrave; necessario <B>creare un progetto</B> che illustri la lettura data da BMIDE del tipo di attivit&agrave; da completare e il ruolo di contenitore delle estensioni svolto da BMIDE. Fare clic su uno dei seguenti tipi di progetto per vederne la funzione. Dopo aver identificato il tipo di progetto da creare, fare clic sul pulsante <B>Crea</B> per iniziare. 
+     </p>
+<div id="templateprojectintro">
+<p style="background-color:#F3F3F3;padding:20px;"><a href="http://org.eclipse.ui.intro/runAction?pluginId=com.teamcenter.bmide.server.ui&amp;class=com.teamcenter.bmide.server.ui.internal.actions.NewExternalFileRepositoryProjectAction&amp;" style="color:#3366AA;margin-left : 4em;">Creazione di un template BMIDE</a></p><BR/>
+     <p style="color:black;">Gli utenti che estendono Teamcenter per la prima volta devono creare un oggetto template. Il template svolge il ruolo di contenitore di tutti gli oggetti business nonch&eacute; delle propriet&agrave; e dei comportamenti creati in BMIDE e pu&ograve; essere distribuito all'ambiente di Teamcenter in fase di test. Dopo la convalida &egrave; possibile installare il template in un sito di produzione dove pu&ograve; essere usato dagli utenti.</p>
+     </div>
+<div id="opsprojectintro">
+<p style="background-color:#F3F3F3;padding:20px;"><a href="http://org.eclipse.ui.intro/runAction?pluginId=com.teamcenter.bmide.server.ui&amp;class=com.teamcenter.bmide.server.ui.internal.actions.NewOperationalDataProjectAction&amp;" style="color:#3366AA;margin-left : 4em;" >Aggiornamenti dinamici di un template BMIDE</a></p><BR/>
+<p style="color:black;">In alcune occasioni potrebbe essere necessario modificare il comportamento di un sito di produzione dinamico ad esempio, aggiungendo un valore all'elenco di valori, uno stato o un contesto ID. Il BMIDE usa questo tipo di progetto per consentire di eseguire aggiornamenti dinamici senza arrestare il sistema. Prima di poter usare questo tipo di progetto &egrave; necessario creare e installare un Progetto di template nel sito di produzione (vedi sopra). </p></div>     
+
+<div id="upgradeprojectintro">
+<p style="background-color:#F3F3F3;padding:20px;"><a href="http://org.eclipse.ui.intro/runAction?pluginId=com.teamcenter.bmide.server.ui&amp;class=com.teamcenter.bmide.server.ui.internal.actions.NewFileRepositoryProjectImportAction&amp;" style="color:#3366AA;margin-left : 4em;">Aggiornamento del template BMIDE da una precedente release di Teamcenter</a></p><BR/>
+<p style="color:black;">Durante la procedura di aggiornamento della versione di Teamcenter &egrave; necessario innanzitutto aggiornare il template BMIDE per un problema di compatibilit&agrave; con la nuova versione di Teamcenter. Per aggiornare il template BMIDE, installare la nuova versione del client BMIDE, quindi fare clic sull'icona &quot;Aggiorna template&quot; e usare il wizard di aggiornamento della release del template BMIDE attuale. Per un elenco completo di step di aggiornamento, vedere la &quot;Guida all'aggiornamento&quot;</p><BR/>     </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcExtension name="CT4ExtractBOMDataOnCC_Create" internal="false" cannedExtension="false"
+       languageType="CPlusPlus" libraryName="libCT4Customlib" description="">
+     <TcExtensionValidity parameter="TYPE:Smc0SolutionItemConfig:GRM_create:3"/>
+   </TcExtension>
+   <TcExtensionAttach extensionName="CT4ExtractBOMDataOnCC_Create" operationName="GRM_create"
+       isActive="true" extendableElementName="Smc0SolutionItemConfig" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+       
+    
+</Add>
+</TcBusinessData>
+

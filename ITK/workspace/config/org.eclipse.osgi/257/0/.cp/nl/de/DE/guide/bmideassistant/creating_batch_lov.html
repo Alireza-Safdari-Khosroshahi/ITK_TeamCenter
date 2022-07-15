@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>BMIDE Assistant</title>
+<link href="bmide.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="PLUGINS_ROOT/org.eclipse.help/livehelp.js">
+</script>
+</head>
+
+<body>
+
+    <div class="maincontent">
+    <div class="contentHead">Update of Batch LOVs</div>
+	<div class="contentBody">
+	  <p> Batch LOVs are LOVs the values of which are updated in the Database by a command line utility. The LOVs are still defined and attached to the properties of Business Objects in the BMIDE project but the values are managed external to the BMIDE.  </p>
+		<p class="barSeparator"></p>		
+		<p> Following is the complete process for working with Batch LOV</p>
+	    <p class="myHead"> Creation of a Batch LOV </p> 
+		<p> In the LOV Wizard choose the LOV Value Management option as <I>"Supply values directly to Teamcenter database using "bmide_manage_batch_lovs" command line utility" </I> </p>
+		<p> Since the template should not contain LOV values for Batch LOV, the UI to add LOV values will be disabled. After specifying other mandatory fields click finish to create the LOV.</p>
+		<p> Once you have created a Batch LOV, BMIDE automatically creates sample XML files which you may use to update the LOV values of this LOV by a command line utility. </p>
+		<p> The sample files are created in the folder <I> &lt;BMIDEProject&gt;/output/Samples </I>. Please review the XML files.</p>
+		<p class="barSeparator"></p>	
+	    <p class="myHead"> Deploy </p> 
+	    <p> Once you have the Batch LOV defined and attached to the properties, you can deploy the template to the Database.</p>
+		<p class="barSeparator"></p>	
+	    <p class="myHead"> Prepare XML files for the Batch LOV</p> 		
+	    <p> Using the sample files created in the BMIDE, create input XML files that will contain the LOV values and localization for the LOV values and description..</p>
+		<p>  You can also refer to samples and the readme available in $TC_ROOT/bmide/samples directory. </p>
+		<p> Please note the XML files created should conform to the XSD published by BMIDE for the Batch LOV. BatchBusinessData.xsd and BatchBusinessDataLocalization.xsd will be available in the $TC_DATA directory </p>
+		<p class="barSeparator"></p>		
+	    <p class="myHead"> Update LOV values using utility </p> 
+	    <p> Once you have Batch LOVs deployed to Database, use the command line utility <I> bmide_manage_batch_lovs </I>with the input XML files that you have created.</p>
+	    <p>The command is:
+		      <I> bmide_manage_batch_lovs –option=update –file=&lt;XML file path&gt; -log=&gt;log file path&gt; </I>
+	    </p>
+	  <p class="barSeparator"></p>		
+      
+      <p>For more information on creating LOV, <a href='javascript:executeCommand("showlink(link=com.teamcenter.bmide.helpguide/guide/CreatingAnLOV.html)")'>click here</a>.</p>
+	
+    </div>
+  </div>
+  <div class="leftMenu">
+    <a href="overview.html"><div class="menuItem">1) Overview</div></a>
+    <a href="getting_started.html"><div class="menuItem">2) Getting Started</div></a>
+    <a href="add_definitions.html"><div class="menuItem">3) Add Definitions</div></a>
+    <a href="deploy.html"><div class="menuItem">4) Deploy</div></a>
+    <a href="editing_live_data.html"><div class="menuItem">5) Editing Live Data</div></a>
+    <div class="activeMenuItem">6) Update of Batch LOVs</div>
+  </div>
+
+</body>
+</html>

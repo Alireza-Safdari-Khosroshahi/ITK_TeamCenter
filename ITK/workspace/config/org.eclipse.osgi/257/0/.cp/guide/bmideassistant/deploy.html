@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>BMIDE Assistant</title>
+<link href="bmide.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="PLUGINS_ROOT/org.eclipse.help/livehelp.js" />
+</head>
+<body>
+
+  <div class="leftMenu">
+    <a href="overview.html"><div class="menuItem">1) Overview</div></a>
+    <a href="getting_started.html"><div class="menuItem">2) Getting Started</div></a>
+    <a href="add_definitions.html"><div class="menuItem">3) Add Definitions</div></a>
+    <div class="activeMenuItem">4) Deploy</div>
+    <a href="editing_live_data.html"><div class="menuItem">5) Editing Live Data</div></a>
+    <a href="creating_batch_lov.html"><div class="menuItem">6) Update of Batch LOVs</div></a>
+  </div>	
+
+	<div class="maincontent">
+    <div class="contentHead">Deploy</div>
+	<div class="contentBody">
+	    <p>A deploy is used to push your template and the encapsulated extensions to a Teamcenter database. The best practice is to first validate your extensions by deploying 
+		to a test environment. <a href='javascript:executeCommand("showlink(link=com.teamcenter.bmide.helpguide/guide/developing_extensions_and_testing.html)")'>Read More...</a></p>	    
+		<p class="barSeparator"></p>
+		<p class="myHead">Deploy to Test Environment</p>
+		<p>If you are deploying to a test environment, you can perform a Live Deploy directly to your Teamcenter environment. Or you can package your template and deploy using TEM. <a href='javascript:executeCommand("showlink(link=com.teamcenter.bmide.helpguide/guide/InstallCustomSolution.html)")'>Read More...</a></p>
+	    <p><button onClick='javascript:executeCommand("org.eclipse.ui.newWizard(newWizardId=com.teamcenter.bmide.server.ui.internal.wizards.NewTcDeploymentWizard)")'>Live Deploy</button> <a href='javascript:executeCommand("showlink(link=com.teamcenter.bmide.helpguide/guide/DeployingToTheServer.html)")'>Read More...</a></p>
+		<p><button onClick='javascript:executeCommand("org.eclipse.ui.newWizard(newWizardId=com.teamcenter.bmide.server.ui.internal.wizards.TcPackagingWizard)")'>Package</button> <a href='javascript:executeCommand("showlink(link=com.teamcenter.bmide.helpguide/guide/PackagingCustomizations.html)")'>Read More...</a></p>
+		<p class="barSeparator"></p>
+		<p class="myHead">Deploy to Production Environment</p>
+		<p>If you are deploying to a production environment, package your template and deploy using TEM. <a href='javascript:executeCommand("showlink(link=com.teamcenter.bmide.helpguide/guide/InstallCustomSolution.html)")'>Read more about deploying with TEM...</a></p>
+	    <p><button onClick='javascript:executeCommand("org.eclipse.ui.newWizard(newWizardId=com.teamcenter.bmide.server.ui.internal.wizards.TcPackagingWizard)")'>Package</button> <a href='javascript:executeCommand("showlink(link=com.teamcenter.bmide.helpguide/guide/PackagingCustomizations.html)")'>Read More...</a></p>
+		 
+	</div>
+  </div>
+
+</body>
+</html>

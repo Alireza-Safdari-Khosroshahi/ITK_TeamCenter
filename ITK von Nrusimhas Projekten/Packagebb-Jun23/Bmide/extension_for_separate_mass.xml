@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <BusinessObjectInterface name="ItemRevision" namespace="ct4::ct4dev01" libraryName="CT4Customlib"
+       createRelease="tc13000.1.0" typeName="ItemRevision" primaryInterface="false"
+       description="Interface Name for Business Object ItemRevision"/>
+   <PropertyOperation id="setCt4_SE_mass#const,std::string,&amp;$bool" name="setCt4_SE_mass"
+       createRelease="tc13000.1.0" description="Setter for a string Property" propertyName="ct4_SE_mass"
+       operationType="Setter" opTemplate="int#set#const,std::string,&amp;$bool" interface="ct4::ct4dev01::ItemRevision"
+       isPublished="true" canOverride="true" isPreActionAllowed="false" isPostActionAllowed="true"
+       isPreConditionAllowed="false" returnDescription="Status. 0 if successful"/>
+   <TcOperationAttach operationName="PROP_set_value_string" extendableElementName="ItemRevision"
+       extendableElementType="Type" propertyName="ct4_SE_mass" description="">
+     <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+   </TcOperationAttach>
+   <TcExtension name="CT4_PopulateMassAttr_toMassUOM" internal="false" cannedExtension="false"
+       languageType="CPlusPlus" libraryName="libCT4Customlib" description="">
+     <TcExtensionValidity parameter="PROPERTY:ItemRevision:ct4_SE_mass:PROP_set_value_string:3"/>
+   </TcExtension>
+   <TcExtensionAttach extensionName="CT4_PopulateMassAttr_toMassUOM" operationName="PROP_set_value_string"
+       isActive="true" propertyName="ct4_SE_mass" extendableElementName="ItemRevision"
+       extendableElementType="Type" extensionPointType="PostAction" conditionName="isTrue"
+       description=""/>
+	   
+	 <TcExtension name="CT4populateValuesonIR" internal="false" cannedExtension="false"
+       languageType="CPlusPlus" libraryName="libCT4Customlib" description="">
+     <TcExtensionValidity parameter="TYPE:ItemRevision:ITEM_create_rev:3"/>
+   </TcExtension>
+   
+   <TcExtensionAttach extensionName="CT4populateValuesonIR" operationName="ITEM_create_rev"
+       isActive="true" extendableElementName="ItemRevision" extendableElementType="Type"
+       extensionPointType="PostAction" conditionName="isTrue" description=""/>
+   
+</Add>
+</TcBusinessData>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+bcprt
+This software and related documentation are proprietary to UGS Corp.
+COPYRIGHT 2005 UGS CORP.  ALL RIGHTS RESERVED
+ecprt
+-->
+<introContent>
+    
+   <!-- Adds "Teamcenter Business Modeler IDE" to the Overview page. -->
+   <extensionContent id="com.teamcenter.bmide" name="Бизнес-разработчик IDE Teamcenter" alt-style="css/swt.properties" style="css/tcbmide.css" path="overview/@">
+     
+   <group label="Интегрированная среда разработки (IDE) бизнес-разработчика Teamcenter" id="tcbmideoverview" style-id="tcbmide-group">
+		   
+    <link label="Общие сведения о процессе " url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/bmide_process_overview.html" id="tcbmide">
+		<text>Получить общие сведения о рабочем процессе при использовании Бизнес-разработчика IDE</text>
+    	</link>
+      
+    <link label="Назначение" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/UsingTheIDE.html" id="tcbmide">
+		<text>Ознакомьтесь с информацией об элементах модели данных, которые можно создать с использованием Бизнес-разработчика IDE Teamcenter</text>
+    	</link>
+
+	<link label="Интерфейс пользователя" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/BMIDEUserInterface.html" id="tcbmide">
+		<text>Введение в пользовательский интерфейс</text>
+        </link>
+
+	<link label="Настройка" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/ConfiguringBMIDE.html" id="tcbmide">
+		<text>Информация о настройке Бизнес-разработчика IDE </text>
+        </link>
+
+	<link label="Основные задачи" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/BasicTasksUsingTheBMIDE.html" id="tcbmide">
+		<text>Ознакомьтесь с основными задачами, которые можно выполнить с использованием Бизнес-разработчика IDE</text>
+        </link>
+
+      </group>
+
+   </extensionContent>
+   
+</introContent>

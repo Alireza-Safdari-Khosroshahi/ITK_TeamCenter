@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: com.teamcenter.bmide.welcome;singleton:=true
+Bundle-Version: 13000.1.0
+TC-Version: V13000.1.0.11_20210301.00
+Bundle-Vendor: Siemens PLM Software, Inc.
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.intro
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: com.teamcenter.bmide.welcome.Activator

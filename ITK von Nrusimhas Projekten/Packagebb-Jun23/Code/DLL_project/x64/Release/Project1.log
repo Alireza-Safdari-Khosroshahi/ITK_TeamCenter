@@ -1,0 +1,42 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  CT4_ClassificationObj.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.hxx(63,1): warning C4010: single-line comment contains line-continuation character
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.hxx(64,1): warning C4010: single-line comment contains line-continuation character
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.hxx(86,85): warning C4190: 'getUpdatedmatrixval' has C-linkage specified, but returns UDT 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' which is incompatible with C
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.hxx(89,64): warning C4190: 'getPosCorbasedVarAttr' has C-linkage specified, but returns UDT 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' which is incompatible with C
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.hxx(90,39): warning C4190: 'trim' has C-linkage specified, but returns UDT 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' which is incompatible with C
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.hxx(95,29): warning C4190: 'ReplaceString' has C-linkage specified, but returns UDT 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' which is incompatible with C
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(127,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(129,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(130,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(179,15): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(183,10): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(191,21): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(217,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(337,21): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(441,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(580,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(537,11): warning C4101: 'value': unreferenced local variable
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(534,6): warning C4101: 'attribute': unreferenced local variable
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(629,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(654,6): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(655,6): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(624,15): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(632,10): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(718,15): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(727,10): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(843,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(885,11): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\PA\Desktop\Nru_class\DLL_project\CT4_ClassificationObj.cpp(889,12): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     Creating library C:\Users\PA\Desktop\Nru_class\DLL_project\x64\Release\libCT4Customlib.lib and object C:\Users\PA\Desktop\Nru_class\DLL_project\x64\Release\libCT4Customlib.exp
+  Generating code
+  8 of 534 functions ( 1.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    11 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Project1.vcxproj -> C:\Users\PA\Desktop\Nru_class\DLL_project\x64\Release\libCT4Customlib.dll

@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>BMIDE Assistant</title>
+<link href="bmide.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="PLUGINS_ROOT/org.eclipse.help/livehelp.js" />
+</head>
+<body>
+
+  <div class="leftMenu">
+    <a href="overview.html"><div class="menuItem">1) Overview</div></a>
+    <div class="activeMenuItem">2) Getting Started</div>
+    <a href="add_definitions.html"><div class="menuItem">3) Add Definitions</div></a>
+    <a href="deploy.html"><div class="menuItem">4) Deploy</div></a>
+    <a href="editing_live_data.html"><div class="menuItem">5) Editing Live Data</div></a>
+    <a href="creating_batch_lov.html"><div class="menuItem">6) Update of Batch LOVs</div></a>
+  </div>
+
+  <div class="maincontent">
+    <div class="contentHead">Getting Started</div>
+	<div class="contentBody">
+	    <p>To get started you will need to create a Template Project. A template project is used to organize all of your extensions that you create. 
+		This template can be deployed to any Teamcenter database for testing or production usage.</p>
+	    <p>Learn more about developing extensions in a template and testing. <a href='javascript:executeCommand("showlink(link=com.teamcenter.bmide.helpguide/guide/developing_extensions_and_testing.html)")'>Read More...</a></p>
+		<p class="barSeparator"></p>
+		<p>1) First you must create a standard BMIDE Template project as a container for your extensions. If you already have a template project, you can skip this step.</p>
+	    <p><button onClick='executeCommand("org.eclipse.ui.newWizard(newWizardId=com.teamcenter.bmide.server.ui.internal.wizards.NewExternalFileRepositoryProjectWizard)")'>Create</button> <a href='javascript:executeCommand("showlink(link=com.teamcenter.bmide.helpguide/guide/CreatingAFileRepositoryProject.html)")'>Read More...</a></p>
+		<p>2) After your template has been deployed to a production environment, you may want to make live updates to LOVs and other rules while users are logged into the system. 
+		Follow this step to configure the BMIDE to help you edit these rules.</p>
+	    <p><button onClick='executeCommand("org.eclipse.ui.newWizard(newWizardId=com.teamcenter.bmide.server.ui.internal.wizards.NewOperationalDataProjectWizard)")'>Create</button> <a href='javascript:executeCommand("showlink(link=com.teamcenter.bmide.helpguide/guide/create_operational_data_template_project.html)")'>Read More...</a></p>		
+	 </div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+/*
+bcprt
+Copyright (c) 2005 UGS Corp.
+All Rights Reserved. 
+This software and related documentation are proprietary to UGS Corp.
+ecprt
+*/
+
+.page { min-height : 700px; }
+
+/* a group of tutorial links */
+.tcbmide-group {
+	/* To center in Moz (have to use text-align for IE) */
+	margin-left : auto;
+	margin-right : auto;
+	width : 750px;
+	margin-bottom : 30px;
+	float : none;
+	clear : both;
+	text-align : left;
+}
+
+.tcbmide-link { 
+	width : 360px;
+	text-align : left; 
+	margin-left : 5px;
+	margin-right : 5px;
+	margin-top : 10px;
+	margin-bottom : -20px;
+	vertical-align : top;
+}
+
+.tcbmide-group > .tcbmide-link {
+	float : left;
+	height : 150px;
+	vertical-align : middle;
+}
+
+
+.tcbmide-link img  {
+	height : 57px;
+	width : 57px;
+	vertical-align : middle;
+}
+
+.tcbmide-group h4 {
+	float : none;
+	clear : both;
+}
+
+p #group-description {
+	padding-bottom : 10px;
+	float : none;
+	clear : both;
+}
+
+.tcbmide-link .link-label {
+	display : block;
+	width : 300px;
+	position : relative;
+	top : -50px;
+	left : 60px;
+}
+
+
+.tcbmide-link p .text {
+	display : block;
+	width : 300px;
+	position : relative;
+	top : -45px;
+	left : 53px;
+}
+
+.tcbmide-link:hover { border-right : 0px; }
+
+
+/* Special case for Mozilla, because the links are displayed
+   in 1 vertical column instead of 2 centered columns */
+#tcbmide-links > a { 	width : 700px; }
+#tcbmide-links a > .link-label { width : 700px; }
+#tcbmide-links a p > .text { width : 700px; }
+
+#tcbmide-links a:hover { border-right : 5px; }
+
+a#tcbmide img { background-image : url(graphics/icons/obj48/tcbmide_obj.gif); }
+a#tcbmide:hover img { background-image : url(graphics/icons/obj48/tcbmidehov_obj.gif); }
+
+.tcbmide-tp-group {
+	/* To center in Moz (have to use text-align for IE) */
+	margin-left : auto;
+	margin-right : auto;
+	width : 750px;
+	margin-bottom : 30px;
+	float : none;
+	clear : both;
+	text-align : left;
+}
+a#tcbmide img { background-image : url(graphics/icons/obj48/tcbmide_obj.gif); }
+a#tcbmide:hover img { background-image : url(graphics/icons/obj48/tcbmidehov_obj.gif); }
+
+
+
+.tcbmide-wp-tp-link img  {
+	height : 64px;
+	width : 64px;
+	vertical-align : middle;
+	position: absolute;
+	left: 50px;
+	top: -76px;
+}
+
+a#tcbmide-wp-tp-link  {
+	position: absolute;
+	color: black;
+	left: 15px;
+	top: 308px;	
+}
+
+a#tcbmide-wp-tp-link img { background-image : url(graphics/icons/obj48/bmide_template_new.png); }
+
+.tcbmide-wp-op-link img  {
+	height : 64px;
+	width : 64px;
+	vertical-align : middle;
+	position: absolute;
+	left: 50px;
+	top: -76px;
+}
+
+a#tcbmide-wp-op-link  {
+	position: absolute;
+	color: black;
+	left: 15px;
+	top: 473px;
+}
+
+a#tcbmide-wp-op-link img { background-image : url(graphics/icons/obj48/bmide_template_liveupdate.png); }
+
+.header_html
+{
+	margin-left: 20px;
+	margin-top: 20px;
+	text-align : justify;
+}
+
+.tcbmide-wp-op1-link img  {
+	height : 64px;
+	width : 64px;
+	vertical-align : middle;
+	position: absolute;
+	left: 50px;
+	top: -76px;
+}
+
+a#tcbmide-wp-op1-link  {
+	position: absolute;
+	color: black;
+	left: 10px;
+	top: 630px;
+}
+
+a#tcbmide-wp-op1-link img { background-image : url(graphics/icons/obj48/bmide_template_upgrade.png); }
+p#introtext
+{
+	position: absolute;
+	font-size : 11pt;
+	color: black;
+	left: 30px;
+	top: 50px;
+	overflow:auto;
+	height: 210px;
+	right: 200px;
+}
+
+#templateprojectintro
+{
+	position: absolute;
+	left: 23px;
+	top: 220px;
+	font-size : 11pt;
+	overflow:auto;
+	height: 200px;
+	right: 200px;
+	padding: 13px; 
+}
+
+#opsprojectintro
+{
+	position: absolute;
+	left: 23px;
+	top: 380px;
+	font-size : 11pt;
+	overflow:auto;
+	right: 200px;
+	padding: 13px; 
+	height: 200px;
+}
+
+h2#introtitle
+{
+	color: black;
+	font-size : 12pt;
+	font-weight: bold;
+}
+
+#upgradeprojectintro
+{
+	position: absolute;
+	left: 23px;
+	top: 540px;
+	font-size : 11pt;
+	right: 200px;
+	padding: 13px; 
+	height: 200px;
+}
+
+
+

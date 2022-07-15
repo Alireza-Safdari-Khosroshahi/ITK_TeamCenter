@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+bcprt
+This software and related documentation are proprietary to UGS Corp.
+COPYRIGHT 2005 UGS CORP.  ALL RIGHTS RESERVED
+ecprt
+-->
+<introContent>
+    
+   <!-- Adds "Teamcenter Business Modeler IDE" to the Overview page. -->
+   <extensionContent id="com.teamcenter.bmide" name="Teamcenter Business Modeler IDE" alt-style="css/swt.properties" style="css/tcbmide.css" path="overview/@">
+     
+   <group label="Teamcenter Business Modeler integrated development environment (IDE)" id="tcbmideoverview" style-id="tcbmide-group">
+		   
+    <link label="Process overview" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/bmide_process_overview.html" id="tcbmide">
+		<text>Get an overview of the work process when using the Business Modeler IDE</text>
+    	</link>
+      
+    <link label="Objectif" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/UsingTheIDE.html" id="tcbmide">
+		<text>Learn about the data model items you can create using the Teamcenter Business Modeler IDE</text>
+    	</link>
+
+	<link label="User Interface" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/BMIDEUserInterface.html" id="tcbmide">
+		<text>Get an introduction to the user interface</text>
+        </link>
+
+	<link label="Configuration" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/ConfiguringBMIDE.html" id="tcbmide">
+		<text>Find out how to configure the Business Modeler IDE</text>
+        </link>
+
+	<link label="Basic Tasks" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/BasicTasksUsingTheBMIDE.html" id="tcbmide">
+		<text>See the basic tasks you can perform with the Business Modeler IDE</text>
+        </link>
+
+      </group>
+
+   </extensionContent>
+   
+</introContent>

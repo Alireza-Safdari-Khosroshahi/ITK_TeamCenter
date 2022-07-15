@@ -1,0 +1,2 @@
+C:\Users\PA\Desktop\Nru_class\Project1\x64\Release\libCT4Customlib.dll
+C:\Users\PA\Desktop\Nru_class\DLL_project\x64\Release\libCT4Customlib.dll

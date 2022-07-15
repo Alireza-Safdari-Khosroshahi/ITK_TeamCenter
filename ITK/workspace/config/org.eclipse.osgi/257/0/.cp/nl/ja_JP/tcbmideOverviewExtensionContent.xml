@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+bcprt
+This software and related documentation are proprietary to UGS Corp.
+COPYRIGHT 2005 UGS CORP.  ALL RIGHTS RESERVED
+ecprt
+-->
+<introContent>
+    
+   <!-- Adds "Teamcenter Business Modeler IDE" to the Overview page. -->
+   <extensionContent id="com.teamcenter.bmide" name="Teamcenter Business Modeler IDE" alt-style="css/swt.properties" style="css/tcbmide.css" path="overview/@">
+     
+   <group label="Teamcenter Business Modeler統合開発環境(IDE)" id="tcbmideoverview" style-id="tcbmide-group">
+		   
+    <link label="プロセスの概要" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/bmide_process_overview.html" id="tcbmide">
+		<text>ビジネスモデラIDEを使用するときに作業プロセスの概要を取得する</text>
+    	</link>
+      
+    <link label="目的" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/UsingTheIDE.html" id="tcbmide">
+		<text>Teamcenter Business Modeler IDEを使用して作成できるデータモデルアイテムについて学習する</text>
+    	</link>
+
+	<link label="ユーザインタフェース" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/BMIDEUserInterface.html" id="tcbmide">
+		<text>ユーザインタフェースの紹介</text>
+        </link>
+
+	<link label="セットアップ" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/ConfiguringBMIDE.html" id="tcbmide">
+		<text>ビジネスモデラIDEの構成方法を見つける</text>
+        </link>
+
+	<link label="基本タスク" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.teamcenter.bmide.helpguide/guide/BasicTasksUsingTheBMIDE.html" id="tcbmide">
+		<text>ビジネスモデラIDEで実行できる基本タスクを参照する</text>
+        </link>
+
+      </group>
+
+   </extensionContent>
+   
+</introContent>
